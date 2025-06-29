@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# IPFS data
+aggregator/ipfs-data/
+aggregator/datastore/
+aggregator/config/
+aggregator/gateway/
+aggregator/keystore/
+aggregator/repo.lock
+aggregator/version
+
+# Fabric crypto material and artifacts
+fabric/crypto-config/
+fabric/channel-artifacts/
+fabric/chaincode/plantnft/plantnft_1.tar.gz
+
+# Data output
+data/cids/
+data/batches/
+
+# Simulator
+simulator/*.log
+
+# Docker-related
+*.env
+*.log

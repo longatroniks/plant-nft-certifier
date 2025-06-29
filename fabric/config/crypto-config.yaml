@@ -1,0 +1,14 @@
+OrdererOrgs:
+  - Name: PlantOrderer
+    Domain: plantnet.com
+    Specs:
+      - Hostname: orderer
+
+PeerOrgs:
+  - Name: PlantOrg
+    Domain: plantorg.plantnet.com
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 1

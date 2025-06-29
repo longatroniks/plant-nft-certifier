@@ -1,0 +1,90 @@
+peer:
+  id: peer0.plantorg.plantnet.com
+  networkId: plantnet
+  listenAddress: 0.0.0.0:7051
+  address: peer0.plantorg.plantnet.com:7051
+  addressAutoDetect: false
+
+  gateway:
+    enabled: true
+
+  gossip:
+    bootstrap: peer0.plantorg.plantnet.com:7051
+    useLeaderElection: false
+    orgLeader: true
+    endpoint: peer0.plantorg.plantnet.com:7051
+
+  tls:
+    enabled: true
+    cert:
+      file: /fabric/crypto-config/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/tls/server.crt
+    key:
+      file: /fabric/crypto-config/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/tls/server.key
+    rootcert:
+      file: /fabric/crypto-config/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/tls/ca.crt
+    clientRootCAs:
+      files:
+        - /fabric/crypto-config/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/tls/ca.crt
+
+  authentication:
+    timewindow: 15m
+
+  fileSystemPath: /var/hyperledger/production
+
+  BCCSP:
+    Default: SW
+    SW:
+      Hash: SHA2
+      Security: 256
+
+  mspConfigPath: /fabric/crypto-config/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/msp
+  localMspId: PlantOrgMSP
+
+chaincode:
+  builder: hyperledger/fabric-ccenv:2.5
+  golang:
+    dynamicLink: false
+    runtime: hyperledger/fabric-baseos:2.5
+  java:
+    runtime: hyperledger/fabric-javaenv:2.5
+  node:
+    runtime: hyperledger/fabric-nodeenv:2.5
+  installTimeout: 300s
+  startuptimeout: 300s
+  executetimeout: 30s
+  keepalive: 0
+  mode: net
+  logging:
+    level: info
+    shim: warning
+    format: '%{color}%{time:2006-01-02 15:04:05.000 MST} [%{module}] %{shortfunc} -> %{level:.4s} %{id:03x}%{color:reset} %{message}'
+
+vm:
+  endpoint: unix:///var/run/docker.sock
+  docker:
+    tls:
+      enabled: false
+    attachStdout: false
+    hostConfig:
+      memory: 2147483648
+      networkMode: host
+      logConfig:
+        type: json-file
+        config:
+          max-size: "50m"
+          max-file: "5"
+
+metrics:
+  provider: disabled
+
+operations:
+  listenAddress: 127.0.0.1:9443
+  tls:
+    enabled: false
+    clientAuthRequired: false
+    clientRootCAs:
+      files: []
+
+profile:
+  enabled: false
+  listenAddress: 0.0.0.0:6060

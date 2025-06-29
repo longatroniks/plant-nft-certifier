@@ -1,0 +1,130 @@
+Organizations:
+  - &PlantOrg
+    Name: PlantOrgMSP
+    ID: PlantOrgMSP
+    MSPDir: ../crypto-config/peerOrganizations/plantorg.plantnet.com/msp
+
+    Policies:
+      Readers:
+        Type: Signature
+        Rule: "OR('PlantOrgMSP.admin', 'PlantOrgMSP.peer', 'PlantOrgMSP.client')"
+      Writers:
+        Type: Signature
+        Rule: "OR('PlantOrgMSP.admin', 'PlantOrgMSP.client')"
+      Admins:
+        Type: Signature
+        Rule: "OR('PlantOrgMSP.admin')"
+      Endorsement:
+        Type: Signature
+        Rule: "OR('PlantOrgMSP.peer')"
+    AnchorPeers:
+      - Host: peer0.plantorg.plantnet.com
+        Port: 7051
+
+  - &OrdererOrg
+    Name: OrdererMSP
+    ID: OrdererMSP
+    MSPDir: ../crypto-config/ordererOrganizations/plantnet.com/msp
+    Policies:
+      Readers:
+        Type: Signature
+        Rule: "OR('OrdererMSP.member')"
+      Writers:
+        Type: Signature
+        Rule: "OR('OrdererMSP.member')"
+      Admins:
+        Type: Signature
+        Rule: "OR('OrdererMSP.admin')"
+    OrdererEndpoints:
+      - orderer.plantnet.com:7050
+
+Capabilities:
+  Channel: &ChannelCapabilities
+    V2_0: true
+
+  Orderer: &OrdererCapabilities
+    V2_0: true
+
+  Application: &ApplicationCapabilities
+    V2_5: true
+
+Application: &ApplicationDefaults
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+    LifecycleEndorsement:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Endorsement"
+    Endorsement:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Endorsement"
+  Capabilities:
+    <<: *ApplicationCapabilities
+
+Orderer: &OrdererDefaults
+  OrdererType: solo
+  Addresses:
+    - orderer.plantnet.com:7050
+  BatchTimeout: 2s
+  BatchSize:
+    MaxMessageCount: 10
+    AbsoluteMaxBytes: 99 MB
+    PreferredMaxBytes: 512 KB
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+    BlockValidation:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+  Capabilities:
+    <<: *OrdererCapabilities
+
+Channel: &ChannelDefaults
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+  Capabilities:
+    <<: *ChannelCapabilities
+
+Profiles:
+  PlantGenesis:
+    <<: *ChannelDefaults
+    Orderer:
+      <<: *OrdererDefaults
+      Organizations:
+        - *OrdererOrg
+    Consortiums:
+      PlantConsortium:
+        Organizations:
+          - *PlantOrg
+
+  SensorReadingsChannel:
+    <<: *ChannelDefaults
+    Consortium: PlantConsortium
+    Application:
+      <<: *ApplicationDefaults
+      Organizations:
+        - *PlantOrg

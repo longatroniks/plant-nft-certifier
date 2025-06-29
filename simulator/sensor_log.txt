@@ -1,0 +1,4178 @@
+J#
+Start program
+-----------------------------
+Temperature: 27.55 Celsius
+Humidity: 42.4 %
+Pressure: 96858.10 Pa
+Timestamp: 1913 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.57 Celsius
+Humidity: 42.3 %
+Pressure: 96853.80 Pa
+Timestamp: 3440 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.59 Celsius
+Humidity: 42.3 %
+Pressure: 96853.60 Pa
+Timestamp: 4963 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.69 Celsius
+Humidity: 42.3 %
+Pressure: 96856.07 Pa
+Timestamp: 6490 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.76 Celsius
+Humidity: 42.2 %
+Pressure: 96850.27 Pa
+Timestamp: 8016 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.70 Celsius
+Humidity: 42.1 %
+Pressure: 96836.60 Pa
+Timestamp: 9546 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.72 Celsius
+Humidity: 42.0 %
+Pressure: 96845.19 Pa
+Timestamp: 11073 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.62 Celsius
+Humidity: 42.1 %
+Pressure: 96845.64 Pa
+Timestamp: 12600 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.54 Celsius
+Humidity: 42.0 %
+Pressure: 96841.92 Pa
+Timestamp: 14123 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.82 Celsius
+Humidity: 42.0 %
+Pressure: 96841.50 Pa
+Timestamp: 15650 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.93 Celsius
+Humidity: 42.0 %
+Pressure: 96834.90 Pa
+Timestamp: 17176 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.72 Celsius
+Humidity: 41.8 %
+Pressure: 96835.70 Pa
+Timestamp: 18703 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.47 Celsius
+Humidity: 41.7 %
+Pressure: 96839.99 Pa
+Timestamp: 20230 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.31 Celsius
+Humidity: 41.8 %
+Pressure: 96837.36 Pa
+Timestamp: 21756 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.13 Celsius
+Humidity: 41.8 %
+Pressure: 96836.17 Pa
+Timestamp: 23286 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.89 Celsius
+Humidity: 41.8 %
+Pressure: 96836.47 Pa
+Timestamp: 24813 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.70 Celsius
+Humidity: 42.0 %
+Pressure: 96836.89 Pa
+Timestamp: 26340 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.55 Celsius
+Humidity: 42.1 %
+Pressure: 96838.16 Pa
+Timestamp: 27863 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.43 Celsius
+Humidity: 42.3 %
+Pressure: 96835.67 Pa
+Timestamp: 29390 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.34 Celsius
+Humidity: 42.6 %
+Pressure: 96839.38 Pa
+Timestamp: 30916 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.29 Celsius
+Humidity: 42.8 %
+Pressure: 96845.32 Pa
+Timestamp: 32443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.14 Celsius
+Humidity: 42.9 %
+Pressure: 96841.06 Pa
+Timestamp: 33970 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.99 Celsius
+Humidity: 43.1 %
+Pressure: 96848.63 Pa
+Timestamp: 35493 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.94 Celsius
+Humidity: 43.4 %
+Pressure: 96848.89 Pa
+Timestamp: 37020 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.89 Celsius
+Humidity: 43.6 %
+Pressure: 96853.01 Pa
+Timestamp: 38543 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.84 Celsius
+Humidity: 43.8 %
+Pressure: 96849.07 Pa
+Timestamp: 40070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.71 Celsius
+Humidity: 43.8 %
+Pressure: 96843.53 Pa
+Timestamp: 41593 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.58 Celsius
+Humidity: 44.0 %
+Pressure: 96841.86 Pa
+Timestamp: 43120 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.57 Celsius
+Humidity: 44.3 %
+Pressure: 96846.85 Pa
+Timestamp: 44647 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.54 Celsius
+Humidity: 44.4 %
+Pressure: 96847.54 Pa
+Timestamp: 46173 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.53 Celsius
+Humidity: 44.6 %
+Pressure: 96841.62 Pa
+Timestamp: 47700 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.36 Celsius
+Humidity: 44.6 %
+Pressure: 96843.87 Pa
+Timestamp: 49223 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.28 Celsius
+Humidity: 44.7 %
+Pressure: 96852.35 Pa
+Timestamp: 50750 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.37 Celsius
+Humidity: 44.8 %
+Pressure: 96850.17 Pa
+Timestamp: 52276 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.25 Celsius
+Humidity: 44.9 %
+Pressure: 96846.83 Pa
+Timestamp: 53803 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.23 Celsius
+Humidity: 45.1 %
+Pressure: 96846.39 Pa
+Timestamp: 55330 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.19 Celsius
+Humidity: 45.1 %
+Pressure: 96841.22 Pa
+Timestamp: 56853 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.20 Celsius
+Humidity: 45.4 %
+Pressure: 96849.80 Pa
+Timestamp: 58380 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.22 Celsius
+Humidity: 45.6 %
+Pressure: 96843.68 Pa
+Timestamp: 59906 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.23 Celsius
+Humidity: 45.7 %
+Pressure: 96845.25 Pa
+Timestamp: 61433 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.24 Celsius
+Humidity: 45.8 %
+Pressure: 96842.11 Pa
+Timestamp: 62960 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.21 Celsius
+Humidity: 45.7 %
+Pressure: 96853.64 Pa
+Timestamp: 64483 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.19 Celsius
+Humidity: 45.8 %
+Pressure: 96843.14 Pa
+Timestamp: 66010 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.16 Celsius
+Humidity: 45.9 %
+Pressure: 96846.55 Pa
+Timestamp: 67537 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.10 Celsius
+Humidity: 45.9 %
+Pressure: 96845.57 Pa
+Timestamp: 69063 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.05 Celsius
+Humidity: 46.0 %
+Pressure: 96848.55 Pa
+Timestamp: 70590 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.98 Celsius
+Humidity: 46.1 %
+Pressure: 96851.51 Pa
+Timestamp: 72120 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.94 Celsius
+Humidity: 46.2 %
+Pressure: 96850.60 Pa
+Timestamp: 73643 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.88 Celsius
+Humidity: 46.3 %
+Pressure: 96851.28 Pa
+Timestamp: 75170 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.85 Celsius
+Humidity: 46.4 %
+Pressure: 96849.95 Pa
+Timestamp: 76700 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.84 Celsius
+Humidity: 46.5 %
+Pressure: 96863.49 Pa
+Timestamp: 78226 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.99 Celsius
+Humidity: 46.4 %
+Pressure: 96860.00 Pa
+Timestamp: 79757 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.26 Celsius
+Humidity: 46.3 %
+Pressure: 96853.14 Pa
+Timestamp: 81286 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.36 Celsius
+Humidity: 46.2 %
+Pressure: 96850.80 Pa
+Timestamp: 82816 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.43 Celsius
+Humidity: 45.9 %
+Pressure: 96858.24 Pa
+Timestamp: 84344 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.56 Celsius
+Humidity: 45.8 %
+Pressure: 96854.28 Pa
+Timestamp: 85873 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.61 Celsius
+Humidity: 45.6 %
+Pressure: 96858.22 Pa
+Timestamp: 87400 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.67 Celsius
+Humidity: 45.6 %
+Pressure: 96856.07 Pa
+Timestamp: 88927 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.71 Celsius
+Humidity: 45.5 %
+Pressure: 96852.05 Pa
+Timestamp: 90456 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.87 Celsius
+Humidity: 45.6 %
+Pressure: 96859.48 Pa
+Timestamp: 91983 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.04 Celsius
+Humidity: 45.4 %
+Pressure: 96852.08 Pa
+Timestamp: 93510 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.24 Celsius
+Humidity: 45.4 %
+Pressure: 96857.05 Pa
+Timestamp: 95033 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.31 Celsius
+Humidity: 45.2 %
+Pressure: 96856.17 Pa
+Timestamp: 96560 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.45 Celsius
+Humidity: 45.1 %
+Pressure: 96857.53 Pa
+Timestamp: 98090 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.50 Celsius
+Humidity: 44.8 %
+Pressure: 96845.95 Pa
+Timestamp: 99613 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.55 Celsius
+Humidity: 44.7 %
+Pressure: 96860.19 Pa
+Timestamp: 101140 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.67 Celsius
+Humidity: 44.7 %
+Pressure: 96855.77 Pa
+Timestamp: 102664 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.80 Celsius
+Humidity: 44.5 %
+Pressure: 96860.21 Pa
+Timestamp: 104190 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.88 Celsius
+Humidity: 44.4 %
+Pressure: 96857.21 Pa
+Timestamp: 105717 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.86 Celsius
+Humidity: 44.2 %
+Pressure: 96866.07 Pa
+Timestamp: 107247 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.90 Celsius
+Humidity: 44.2 %
+Pressure: 96866.26 Pa
+Timestamp: 108774 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.03 Celsius
+Humidity: 44.1 %
+Pressure: 96865.42 Pa
+Timestamp: 110300 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.18 Celsius
+Humidity: 44.1 %
+Pressure: 96865.21 Pa
+Timestamp: 111823 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.24 Celsius
+Humidity: 44.0 %
+Pressure: 96863.83 Pa
+Timestamp: 113350 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.37 Celsius
+Humidity: 44.0 %
+Pressure: 96873.77 Pa
+Timestamp: 114876 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.46 Celsius
+Humidity: 43.8 %
+Pressure: 96863.83 Pa
+Timestamp: 116404 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.57 Celsius
+Humidity: 43.9 %
+Pressure: 96860.61 Pa
+Timestamp: 117934 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.73 Celsius
+Humidity: 43.9 %
+Pressure: 96860.07 Pa
+Timestamp: 119460 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.81 Celsius
+Humidity: 43.7 %
+Pressure: 96860.13 Pa
+Timestamp: 120986 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.90 Celsius
+Humidity: 43.7 %
+Pressure: 96860.33 Pa
+Timestamp: 122513 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.02 Celsius
+Humidity: 43.8 %
+Pressure: 96856.62 Pa
+Timestamp: 124040 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.14 Celsius
+Humidity: 43.7 %
+Pressure: 96860.29 Pa
+Timestamp: 125566 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.24 Celsius
+Humidity: 43.4 %
+Pressure: 96856.55 Pa
+Timestamp: 127093 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.28 Celsius
+Humidity: 43.0 %
+Pressure: 96855.08 Pa
+Timestamp: 128620 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.25 Celsius
+Humidity: 42.5 %
+Pressure: 96850.55 Pa
+Timestamp: 130150 Milliseconds
+-----------------------------
+J#
+Start program
+J#
+J#
+J#
+J#
+J#
+J#
+Start program
+-----------------------------
+Temperature: 28.27 Celsius
+Humidity: 41.9 %
+Pressure: 96851.58 Pa
+Timestamp: 1916 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.39 Celsius
+Humidity: 42.1 %
+Pressure: 96852.39 Pa
+Timestamp: 3443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.33 Celsius
+Humidity: 41.6 %
+Pressure: 96850.79 Pa
+Timestamp: 4970 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.33 Celsius
+Humidity: 41.4 %
+Pressure: 96848.88 Pa
+Timestamp: 6493 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.45 Celsius
+Humidity: 41.6 %
+Pressure: 96853.78 Pa
+Timestamp: 8020 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.63 Celsius
+Humidity: 41.6 %
+Pressure: 96848.42 Pa
+Timestamp: 9543 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.58 Celsius
+Humidity: 41.0 %
+Pressure: 96847.96 Pa
+Timestamp: 11070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.57 Celsius
+Humidity: 40.9 %
+Pressure: 96845.61 Pa
+Timestamp: 12593 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.53 Celsius
+Humidity: 40.9 %
+Pressure: 96853.05 Pa
+Timestamp: 14120 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.56 Celsius
+Humidity: 40.8 %
+Pressure: 96855.72 Pa
+Timestamp: 15646 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.46 Celsius
+Humidity: 40.7 %
+Pressure: 96833.88 Pa
+Timestamp: 17173 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.60 Celsius
+Humidity: 41.0 %
+Pressure: 96848.48 Pa
+Timestamp: 18700 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.58 Celsius
+Humidity: 41.1 %
+Pressure: 96842.47 Pa
+Timestamp: 20230 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.46 Celsius
+Humidity: 41.0 %
+Pressure: 96837.66 Pa
+Timestamp: 21753 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.32 Celsius
+Humidity: 41.0 %
+Pressure: 96842.15 Pa
+Timestamp: 23280 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.21 Celsius
+Humidity: 41.2 %
+Pressure: 96839.66 Pa
+Timestamp: 24806 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.11 Celsius
+Humidity: 41.7 %
+Pressure: 96842.64 Pa
+Timestamp: 26336 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.10 Celsius
+Humidity: 42.1 %
+Pressure: 96843.42 Pa
+Timestamp: 27863 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.00 Celsius
+Humidity: 42.0 %
+Pressure: 96846.29 Pa
+Timestamp: 29393 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.97 Celsius
+Humidity: 42.3 %
+Pressure: 96841.64 Pa
+Timestamp: 30920 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.95 Celsius
+Humidity: 42.6 %
+Pressure: 96845.92 Pa
+Timestamp: 32450 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.89 Celsius
+Humidity: 42.5 %
+Pressure: 96848.46 Pa
+Timestamp: 33973 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.77 Celsius
+Humidity: 42.2 %
+Pressure: 96845.61 Pa
+Timestamp: 35500 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.66 Celsius
+Humidity: 42.2 %
+Pressure: 96852.45 Pa
+Timestamp: 37027 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.62 Celsius
+Humidity: 42.4 %
+Pressure: 96846.58 Pa
+Timestamp: 38553 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.65 Celsius
+Humidity: 42.4 %
+Pressure: 96847.74 Pa
+Timestamp: 40080 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.59 Celsius
+Humidity: 42.3 %
+Pressure: 96849.51 Pa
+Timestamp: 41606 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.51 Celsius
+Humidity: 42.4 %
+Pressure: 96847.03 Pa
+Timestamp: 43133 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.42 Celsius
+Humidity: 42.2 %
+Pressure: 96846.96 Pa
+Timestamp: 44660 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.40 Celsius
+Humidity: 42.4 %
+Pressure: 96855.45 Pa
+Timestamp: 46190 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.29 Celsius
+Humidity: 42.3 %
+Pressure: 96866.20 Pa
+Timestamp: 47713 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.50 Celsius
+Humidity: 42.4 %
+Pressure: 96858.88 Pa
+Timestamp: 49240 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.60 Celsius
+Humidity: 42.1 %
+Pressure: 96851.66 Pa
+Timestamp: 50763 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.63 Celsius
+Humidity: 41.9 %
+Pressure: 96847.21 Pa
+Timestamp: 52290 Milliseconds
+-----------------------------
+J#
+J#
+J#
+J#
+J#
+J#
+J#
+J#
+J#
+Start program
+-----------------------------
+Temperature: 26.78 Celsius
+Humidity: 42.8 %
+Pressure: 96848.05 Pa
+Timestamp: 1917 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.75 Celsius
+Humidity: 42.9 %
+Pressure: 96854.07 Pa
+Timestamp: 3443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.92 Celsius
+Humidity: 42.8 %
+Pressure: 96857.32 Pa
+Timestamp: 4970 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.01 Celsius
+Humidity: 42.9 %
+Pressure: 96861.07 Pa
+Timestamp: 6496 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.12 Celsius
+Humidity: 42.8 %
+Pressure: 96854.27 Pa
+Timestamp: 8026 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.16 Celsius
+Humidity: 42.6 %
+Pressure: 96855.77 Pa
+Timestamp: 9553 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.19 Celsius
+Humidity: 42.5 %
+Pressure: 96848.17 Pa
+Timestamp: 11080 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.12 Celsius
+Humidity: 42.6 %
+Pressure: 96855.92 Pa
+Timestamp: 12603 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.84 Celsius
+Humidity: 42.6 %
+Pressure: 96847.19 Pa
+Timestamp: 14130 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.59 Celsius
+Humidity: 42.7 %
+Pressure: 96844.81 Pa
+Timestamp: 15657 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.46 Celsius
+Humidity: 42.9 %
+Pressure: 96843.11 Pa
+Timestamp: 17183 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.36 Celsius
+Humidity: 43.0 %
+Pressure: 96849.33 Pa
+Timestamp: 18710 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.25 Celsius
+Humidity: 43.2 %
+Pressure: 96848.82 Pa
+Timestamp: 20233 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.29 Celsius
+Humidity: 43.3 %
+Pressure: 96848.11 Pa
+Timestamp: 21760 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.51 Celsius
+Humidity: 43.2 %
+Pressure: 96853.03 Pa
+Timestamp: 23286 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.62 Celsius
+Humidity: 43.2 %
+Pressure: 96850.19 Pa
+Timestamp: 24813 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.69 Celsius
+Humidity: 43.1 %
+Pressure: 96846.05 Pa
+Timestamp: 26340 Milliseconds
+-----------------------------
+J#
+Start program
+J#
+Start program
+-----------------------------
+Temperature: 27.08 Celsius
+Humidity: 43.0 %
+Pressure: 96853.41 Pa
+Timestamp: 1916 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.03 Celsius
+Humidity: 42.7 %
+Pressure: 96845.83 Pa
+Timestamp: 3443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.94 Celsius
+Humidity: 42.7 %
+Pressure: 96835.75 Pa
+Timestamp: 4970 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.68 Celsius
+Humidity: 42.8 %
+Pressure: 96836.17 Pa
+Timestamp: 6493 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.59 Celsius
+Humidity: 42.9 %
+Pressure: 96831.31 Pa
+Timestamp: 8020 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.48 Celsius
+Humidity: 43.0 %
+Pressure: 96844.46 Pa
+Timestamp: 9543 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.62 Celsius
+Humidity: 42.8 %
+Pressure: 96839.32 Pa
+Timestamp: 11070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.74 Celsius
+Humidity: 42.9 %
+Pressure: 96833.75 Pa
+Timestamp: 12593 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.83 Celsius
+Humidity: 42.8 %
+Pressure: 96840.40 Pa
+Timestamp: 14120 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.88 Celsius
+Humidity: 42.7 %
+Pressure: 96834.82 Pa
+Timestamp: 15650 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.04 Celsius
+Humidity: 42.6 %
+Pressure: 96832.45 Pa
+Timestamp: 17173 Milliseconds
+-----------------------------
+J#
+J#
+J#
+J#
+J#
+Start program
+-----------------------------
+Temperature: 27.01 Celsius
+Humidity: 42.2 %
+Pressure: 96811.22 Pa
+Timestamp: 1917 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.04 Celsius
+Humidity: 42.2 %
+Pressure: 96814.42 Pa
+Timestamp: 3443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.02 Celsius
+Humidity: 42.2 %
+Pressure: 96807.00 Pa
+Timestamp: 4970 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.87 Celsius
+Humidity: 42.2 %
+Pressure: 96801.50 Pa
+Timestamp: 6493 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.73 Celsius
+Humidity: 42.4 %
+Pressure: 96797.86 Pa
+Timestamp: 8020 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.67 Celsius
+Humidity: 42.6 %
+Pressure: 96792.71 Pa
+Timestamp: 9543 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.64 Celsius
+Humidity: 43.0 %
+Pressure: 96802.00 Pa
+Timestamp: 11070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.63 Celsius
+Humidity: 43.2 %
+Pressure: 96803.15 Pa
+Timestamp: 12593 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.60 Celsius
+Humidity: 43.3 %
+Pressure: 96801.86 Pa
+Timestamp: 14120 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.57 Celsius
+Humidity: 43.4 %
+Pressure: 96803.36 Pa
+Timestamp: 15650 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.49 Celsius
+Humidity: 43.3 %
+Pressure: 96802.82 Pa
+Timestamp: 17173 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.43 Celsius
+Humidity: 43.3 %
+Pressure: 96802.30 Pa
+Timestamp: 18700 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.37 Celsius
+Humidity: 43.4 %
+Pressure: 96806.87 Pa
+Timestamp: 20226 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.48 Celsius
+Humidity: 43.4 %
+Pressure: 96804.14 Pa
+Timestamp: 21753 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.65 Celsius
+Humidity: 43.4 %
+Pressure: 96806.00 Pa
+Timestamp: 23280 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.77 Celsius
+Humidity: 43.2 %
+Pressure: 96807.72 Pa
+Timestamp: 24803 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.87 Celsius
+Humidity: 43.1 %
+Pressure: 96808.72 Pa
+Timestamp: 26330 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.85 Celsius
+Humidity: 42.9 %
+Pressure: 96807.80 Pa
+Timestamp: 27853 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.82 Celsius
+Humidity: 42.9 %
+Pressure: 96808.58 Pa
+Timestamp: 29380 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.80 Celsius
+Humidity: 42.8 %
+Pressure: 96807.00 Pa
+Timestamp: 30906 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.87 Celsius
+Humidity: 42.8 %
+Pressure: 96804.43 Pa
+Timestamp: 32437 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.82 Celsius
+Humidity: 42.7 %
+Pressure: 96809.72 Pa
+Timestamp: 33963 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.89 Celsius
+Humidity: 42.7 %
+Pressure: 96808.00 Pa
+Timestamp: 35490 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.94 Celsius
+Humidity: 42.6 %
+Pressure: 96798.64 Pa
+Timestamp: 37013 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.83 Celsius
+Humidity: 42.6 %
+Pressure: 96804.58 Pa
+Timestamp: 38540 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.63 Celsius
+Humidity: 42.6 %
+Pressure: 96800.72 Pa
+Timestamp: 40063 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.53 Celsius
+Humidity: 42.7 %
+Pressure: 96794.71 Pa
+Timestamp: 41590 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.41 Celsius
+Humidity: 42.8 %
+Pressure: 96796.44 Pa
+Timestamp: 43113 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.35 Celsius
+Humidity: 42.9 %
+Pressure: 96800.11 Pa
+Timestamp: 44640 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.39 Celsius
+Humidity: 43.0 %
+Pressure: 96793.88 Pa
+Timestamp: 46163 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.35 Celsius
+Humidity: 42.9 %
+Pressure: 96804.41 Pa
+Timestamp: 47690 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.26 Celsius
+Humidity: 42.9 %
+Pressure: 96805.11 Pa
+Timestamp: 49213 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.30 Celsius
+Humidity: 43.0 %
+Pressure: 96801.36 Pa
+Timestamp: 50740 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.26 Celsius
+Humidity: 43.0 %
+Pressure: 96799.68 Pa
+Timestamp: 52263 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.30 Celsius
+Humidity: 43.0 %
+Pressure: 96806.00 Pa
+Timestamp: 53790 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.37 Celsius
+Humidity: 43.1 %
+Pressure: 96803.17 Pa
+Timestamp: 55316 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.49 Celsius
+Humidity: 43.2 %
+Pressure: 96797.92 Pa
+Timestamp: 56843 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.62 Celsius
+Humidity: 43.2 %
+Pressure: 96808.15 Pa
+Timestamp: 58370 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.69 Celsius
+Humidity: 43.2 %
+Pressure: 96805.72 Pa
+Timestamp: 59896 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.78 Celsius
+Humidity: 43.3 %
+Pressure: 96804.29 Pa
+Timestamp: 61426 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.82 Celsius
+Humidity: 43.3 %
+Pressure: 96811.01 Pa
+Timestamp: 62953 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.96 Celsius
+Humidity: 43.1 %
+Pressure: 96805.78 Pa
+Timestamp: 64480 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.03 Celsius
+Humidity: 43.1 %
+Pressure: 96807.13 Pa
+Timestamp: 66006 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.15 Celsius
+Humidity: 43.1 %
+Pressure: 96799.96 Pa
+Timestamp: 67534 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.25 Celsius
+Humidity: 43.0 %
+Pressure: 96807.10 Pa
+Timestamp: 69060 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.29 Celsius
+Humidity: 42.8 %
+Pressure: 96805.22 Pa
+Timestamp: 70587 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.30 Celsius
+Humidity: 42.5 %
+Pressure: 96803.22 Pa
+Timestamp: 72116 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.22 Celsius
+Humidity: 42.3 %
+Pressure: 96799.66 Pa
+Timestamp: 73643 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.19 Celsius
+Humidity: 42.2 %
+Pressure: 96800.74 Pa
+Timestamp: 75170 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.18 Celsius
+Humidity: 42.1 %
+Pressure: 96803.10 Pa
+Timestamp: 76700 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.25 Celsius
+Humidity: 42.3 %
+Pressure: 96809.03 Pa
+Timestamp: 78226 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.25 Celsius
+Humidity: 42.1 %
+Pressure: 96805.03 Pa
+Timestamp: 79757 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.21 Celsius
+Humidity: 42.0 %
+Pressure: 96805.39 Pa
+Timestamp: 81286 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.23 Celsius
+Humidity: 42.2 %
+Pressure: 96808.24 Pa
+Timestamp: 82813 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.24 Celsius
+Humidity: 42.1 %
+Pressure: 96807.03 Pa
+Timestamp: 84340 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.21 Celsius
+Humidity: 42.0 %
+Pressure: 96811.25 Pa
+Timestamp: 85870 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.27 Celsius
+Humidity: 42.1 %
+Pressure: 96812.83 Pa
+Timestamp: 87400 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.13 Celsius
+Humidity: 42.2 %
+Pressure: 96812.92 Pa
+Timestamp: 88930 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.01 Celsius
+Humidity: 42.3 %
+Pressure: 96821.99 Pa
+Timestamp: 90457 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.07 Celsius
+Humidity: 42.3 %
+Pressure: 96821.57 Pa
+Timestamp: 91983 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.17 Celsius
+Humidity: 42.3 %
+Pressure: 96828.71 Pa
+Timestamp: 93510 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.22 Celsius
+Humidity: 42.1 %
+Pressure: 96824.55 Pa
+Timestamp: 95037 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.36 Celsius
+Humidity: 42.1 %
+Pressure: 96824.26 Pa
+Timestamp: 96570 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.15 Celsius
+Humidity: 42.0 %
+Pressure: 96832.38 Pa
+Timestamp: 98100 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.99 Celsius
+Humidity: 42.1 %
+Pressure: 96832.03 Pa
+Timestamp: 99627 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.81 Celsius
+Humidity: 42.2 %
+Pressure: 96829.89 Pa
+Timestamp: 101153 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.92 Celsius
+Humidity: 42.4 %
+Pressure: 96834.17 Pa
+Timestamp: 102680 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.10 Celsius
+Humidity: 42.5 %
+Pressure: 96839.46 Pa
+Timestamp: 104206 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.22 Celsius
+Humidity: 42.5 %
+Pressure: 96835.07 Pa
+Timestamp: 105736 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.38 Celsius
+Humidity: 42.6 %
+Pressure: 96835.36 Pa
+Timestamp: 107263 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.54 Celsius
+Humidity: 42.7 %
+Pressure: 96835.64 Pa
+Timestamp: 108793 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.64 Celsius
+Humidity: 42.4 %
+Pressure: 96839.27 Pa
+Timestamp: 110320 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.49 Celsius
+Humidity: 42.2 %
+Pressure: 96835.69 Pa
+Timestamp: 111843 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.30 Celsius
+Humidity: 42.2 %
+Pressure: 96839.66 Pa
+Timestamp: 113370 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.19 Celsius
+Humidity: 42.8 %
+Pressure: 96837.60 Pa
+Timestamp: 114897 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.14 Celsius
+Humidity: 43.1 %
+Pressure: 96835.60 Pa
+Timestamp: 116430 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.10 Celsius
+Humidity: 43.5 %
+Pressure: 96833.96 Pa
+Timestamp: 117956 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.08 Celsius
+Humidity: 44.0 %
+Pressure: 96832.74 Pa
+Timestamp: 119484 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.03 Celsius
+Humidity: 44.3 %
+Pressure: 96835.32 Pa
+Timestamp: 121010 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.92 Celsius
+Humidity: 43.8 %
+Pressure: 96835.89 Pa
+Timestamp: 122536 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.85 Celsius
+Humidity: 43.7 %
+Pressure: 96834.61 Pa
+Timestamp: 124063 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.76 Celsius
+Humidity: 43.7 %
+Pressure: 96829.39 Pa
+Timestamp: 125590 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.76 Celsius
+Humidity: 43.9 %
+Pressure: 96841.04 Pa
+Timestamp: 127120 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.74 Celsius
+Humidity: 44.0 %
+Pressure: 96835.61 Pa
+Timestamp: 128646 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.73 Celsius
+Humidity: 44.0 %
+Pressure: 96839.47 Pa
+Timestamp: 130174 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.74 Celsius
+Humidity: 44.5 %
+Pressure: 96839.47 Pa
+Timestamp: 131704 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.73 Celsius
+Humidity: 44.7 %
+Pressure: 96840.18 Pa
+Timestamp: 133233 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.66 Celsius
+Humidity: 44.4 %
+Pressure: 96834.60 Pa
+Timestamp: 134760 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.63 Celsius
+Humidity: 44.2 %
+Pressure: 96833.74 Pa
+Timestamp: 136283 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.55 Celsius
+Humidity: 44.2 %
+Pressure: 96841.38 Pa
+Timestamp: 137810 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.60 Celsius
+Humidity: 43.8 %
+Pressure: 96846.25 Pa
+Timestamp: 139340 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.71 Celsius
+Humidity: 43.8 %
+Pressure: 96842.69 Pa
+Timestamp: 140863 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.86 Celsius
+Humidity: 43.6 %
+Pressure: 96849.49 Pa
+Timestamp: 142390 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.98 Celsius
+Humidity: 43.7 %
+Pressure: 96845.27 Pa
+Timestamp: 143916 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.97 Celsius
+Humidity: 43.6 %
+Pressure: 96849.33 Pa
+Timestamp: 145443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.91 Celsius
+Humidity: 43.4 %
+Pressure: 96847.41 Pa
+Timestamp: 146973 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.95 Celsius
+Humidity: 43.3 %
+Pressure: 96843.62 Pa
+Timestamp: 148500 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.81 Celsius
+Humidity: 43.2 %
+Pressure: 96848.83 Pa
+Timestamp: 150023 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.74 Celsius
+Humidity: 43.8 %
+Pressure: 96842.97 Pa
+Timestamp: 151553 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.72 Celsius
+Humidity: 44.3 %
+Pressure: 96850.27 Pa
+Timestamp: 153080 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.68 Celsius
+Humidity: 44.4 %
+Pressure: 96849.40 Pa
+Timestamp: 154606 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.67 Celsius
+Humidity: 44.4 %
+Pressure: 96843.18 Pa
+Timestamp: 156137 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.63 Celsius
+Humidity: 44.5 %
+Pressure: 96846.25 Pa
+Timestamp: 157663 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.64 Celsius
+Humidity: 44.5 %
+Pressure: 96850.90 Pa
+Timestamp: 159190 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.62 Celsius
+Humidity: 44.5 %
+Pressure: 96840.75 Pa
+Timestamp: 160717 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.59 Celsius
+Humidity: 44.4 %
+Pressure: 96846.89 Pa
+Timestamp: 162243 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.56 Celsius
+Humidity: 44.1 %
+Pressure: 96847.60 Pa
+Timestamp: 163770 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.52 Celsius
+Humidity: 44.2 %
+Pressure: 96843.60 Pa
+Timestamp: 165294 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.42 Celsius
+Humidity: 44.2 %
+Pressure: 96850.39 Pa
+Timestamp: 166820 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.34 Celsius
+Humidity: 44.1 %
+Pressure: 96851.02 Pa
+Timestamp: 168347 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.26 Celsius
+Humidity: 44.1 %
+Pressure: 96849.69 Pa
+Timestamp: 169873 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.25 Celsius
+Humidity: 44.3 %
+Pressure: 96851.62 Pa
+Timestamp: 171400 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.24 Celsius
+Humidity: 44.5 %
+Pressure: 96850.04 Pa
+Timestamp: 172930 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.22 Celsius
+Humidity: 44.6 %
+Pressure: 96853.82 Pa
+Timestamp: 174460 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.18 Celsius
+Humidity: 44.8 %
+Pressure: 96855.32 Pa
+Timestamp: 175990 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.16 Celsius
+Humidity: 44.7 %
+Pressure: 96855.22 Pa
+Timestamp: 177520 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.11 Celsius
+Humidity: 44.7 %
+Pressure: 96852.08 Pa
+Timestamp: 179043 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.10 Celsius
+Humidity: 44.8 %
+Pressure: 96848.92 Pa
+Timestamp: 180570 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.11 Celsius
+Humidity: 45.0 %
+Pressure: 96849.72 Pa
+Timestamp: 182100 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.11 Celsius
+Humidity: 45.2 %
+Pressure: 96848.92 Pa
+Timestamp: 183623 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.08 Celsius
+Humidity: 45.1 %
+Pressure: 96852.35 Pa
+Timestamp: 185150 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.04 Celsius
+Humidity: 45.1 %
+Pressure: 96854.28 Pa
+Timestamp: 186673 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.07 Celsius
+Humidity: 45.4 %
+Pressure: 96846.49 Pa
+Timestamp: 188200 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.04 Celsius
+Humidity: 45.3 %
+Pressure: 96848.41 Pa
+Timestamp: 189726 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.00 Celsius
+Humidity: 45.1 %
+Pressure: 96849.47 Pa
+Timestamp: 191253 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.95 Celsius
+Humidity: 45.1 %
+Pressure: 96848.89 Pa
+Timestamp: 192780 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.99 Celsius
+Humidity: 45.1 %
+Pressure: 96860.57 Pa
+Timestamp: 194306 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.23 Celsius
+Humidity: 45.0 %
+Pressure: 96855.55 Pa
+Timestamp: 195836 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.37 Celsius
+Humidity: 44.7 %
+Pressure: 96858.97 Pa
+Timestamp: 197366 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.47 Celsius
+Humidity: 44.6 %
+Pressure: 96852.88 Pa
+Timestamp: 198893 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.54 Celsius
+Humidity: 44.4 %
+Pressure: 96853.61 Pa
+Timestamp: 200420 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.34 Celsius
+Humidity: 44.4 %
+Pressure: 96853.27 Pa
+Timestamp: 201950 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.21 Celsius
+Humidity: 44.3 %
+Pressure: 96863.81 Pa
+Timestamp: 203480 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.09 Celsius
+Humidity: 44.2 %
+Pressure: 96851.91 Pa
+Timestamp: 205004 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.01 Celsius
+Humidity: 44.2 %
+Pressure: 96862.07 Pa
+Timestamp: 206530 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.18 Celsius
+Humidity: 44.2 %
+Pressure: 96858.97 Pa
+Timestamp: 208053 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.36 Celsius
+Humidity: 44.3 %
+Pressure: 96867.11 Pa
+Timestamp: 209580 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.50 Celsius
+Humidity: 44.1 %
+Pressure: 96853.61 Pa
+Timestamp: 211110 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.30 Celsius
+Humidity: 44.0 %
+Pressure: 96855.83 Pa
+Timestamp: 212637 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.16 Celsius
+Humidity: 44.1 %
+Pressure: 96851.72 Pa
+Timestamp: 214163 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.11 Celsius
+Humidity: 44.2 %
+Pressure: 96855.85 Pa
+Timestamp: 215690 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.08 Celsius
+Humidity: 44.3 %
+Pressure: 96854.36 Pa
+Timestamp: 217217 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.06 Celsius
+Humidity: 44.2 %
+Pressure: 96855.33 Pa
+Timestamp: 218743 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.92 Celsius
+Humidity: 44.1 %
+Pressure: 96856.94 Pa
+Timestamp: 220270 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.81 Celsius
+Humidity: 44.1 %
+Pressure: 96860.97 Pa
+Timestamp: 221796 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.72 Celsius
+Humidity: 44.3 %
+Pressure: 96855.37 Pa
+Timestamp: 223327 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.73 Celsius
+Humidity: 44.6 %
+Pressure: 96848.11 Pa
+Timestamp: 224854 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.75 Celsius
+Humidity: 44.8 %
+Pressure: 96856.94 Pa
+Timestamp: 226380 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.72 Celsius
+Humidity: 44.9 %
+Pressure: 96861.24 Pa
+Timestamp: 227910 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.73 Celsius
+Humidity: 44.9 %
+Pressure: 96853.53 Pa
+Timestamp: 229436 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.66 Celsius
+Humidity: 44.8 %
+Pressure: 96853.94 Pa
+Timestamp: 230964 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.54 Celsius
+Humidity: 44.6 %
+Pressure: 96850.54 Pa
+Timestamp: 232490 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.41 Celsius
+Humidity: 44.5 %
+Pressure: 96850.96 Pa
+Timestamp: 234017 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.41 Celsius
+Humidity: 45.0 %
+Pressure: 96855.43 Pa
+Timestamp: 235544 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.37 Celsius
+Humidity: 44.9 %
+Pressure: 96855.60 Pa
+Timestamp: 237070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.38 Celsius
+Humidity: 45.1 %
+Pressure: 96851.85 Pa
+Timestamp: 238596 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.41 Celsius
+Humidity: 45.4 %
+Pressure: 96858.14 Pa
+Timestamp: 240124 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.39 Celsius
+Humidity: 45.4 %
+Pressure: 96854.21 Pa
+Timestamp: 241650 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.41 Celsius
+Humidity: 45.9 %
+Pressure: 96857.80 Pa
+Timestamp: 243176 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.44 Celsius
+Humidity: 46.0 %
+Pressure: 96856.66 Pa
+Timestamp: 244703 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.47 Celsius
+Humidity: 46.3 %
+Pressure: 96857.54 Pa
+Timestamp: 246230 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.51 Celsius
+Humidity: 46.6 %
+Pressure: 96854.54 Pa
+Timestamp: 247760 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.56 Celsius
+Humidity: 46.5 %
+Pressure: 96856.11 Pa
+Timestamp: 249290 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.57 Celsius
+Humidity: 46.5 %
+Pressure: 96853.85 Pa
+Timestamp: 250820 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.55 Celsius
+Humidity: 46.4 %
+Pressure: 96860.06 Pa
+Timestamp: 252347 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.60 Celsius
+Humidity: 46.5 %
+Pressure: 96856.21 Pa
+Timestamp: 253873 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.62 Celsius
+Humidity: 46.6 %
+Pressure: 96857.44 Pa
+Timestamp: 255400 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.57 Celsius
+Humidity: 46.1 %
+Pressure: 96853.75 Pa
+Timestamp: 256924 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.50 Celsius
+Humidity: 45.8 %
+Pressure: 96858.77 Pa
+Timestamp: 258450 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.48 Celsius
+Humidity: 45.7 %
+Pressure: 96855.53 Pa
+Timestamp: 259973 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.45 Celsius
+Humidity: 45.6 %
+Pressure: 96853.95 Pa
+Timestamp: 261500 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.44 Celsius
+Humidity: 45.6 %
+Pressure: 96857.80 Pa
+Timestamp: 263027 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.44 Celsius
+Humidity: 45.6 %
+Pressure: 96860.07 Pa
+Timestamp: 264556 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.42 Celsius
+Humidity: 45.5 %
+Pressure: 96864.35 Pa
+Timestamp: 266083 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.54 Celsius
+Humidity: 45.5 %
+Pressure: 96863.42 Pa
+Timestamp: 267610 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.69 Celsius
+Humidity: 45.6 %
+Pressure: 96859.13 Pa
+Timestamp: 269136 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.59 Celsius
+Humidity: 45.6 %
+Pressure: 96855.42 Pa
+Timestamp: 270663 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.56 Celsius
+Humidity: 45.6 %
+Pressure: 96859.17 Pa
+Timestamp: 272190 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.53 Celsius
+Humidity: 46.1 %
+Pressure: 96856.06 Pa
+Timestamp: 273716 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.47 Celsius
+Humidity: 45.9 %
+Pressure: 96860.25 Pa
+Timestamp: 275250 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.48 Celsius
+Humidity: 45.8 %
+Pressure: 96856.66 Pa
+Timestamp: 276780 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.44 Celsius
+Humidity: 45.7 %
+Pressure: 96860.25 Pa
+Timestamp: 278307 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.50 Celsius
+Humidity: 45.6 %
+Pressure: 96860.25 Pa
+Timestamp: 279833 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.56 Celsius
+Humidity: 45.6 %
+Pressure: 96865.78 Pa
+Timestamp: 281360 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.78 Celsius
+Humidity: 45.5 %
+Pressure: 96856.69 Pa
+Timestamp: 282884 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.72 Celsius
+Humidity: 45.6 %
+Pressure: 96863.07 Pa
+Timestamp: 284410 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.62 Celsius
+Humidity: 45.6 %
+Pressure: 96859.01 Pa
+Timestamp: 285936 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.72 Celsius
+Humidity: 45.9 %
+Pressure: 96865.96 Pa
+Timestamp: 287463 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.79 Celsius
+Humidity: 45.9 %
+Pressure: 96854.06 Pa
+Timestamp: 288990 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.78 Celsius
+Humidity: 45.7 %
+Pressure: 96854.41 Pa
+Timestamp: 290517 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.79 Celsius
+Humidity: 45.6 %
+Pressure: 96856.69 Pa
+Timestamp: 292043 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.77 Celsius
+Humidity: 45.7 %
+Pressure: 96866.66 Pa
+Timestamp: 293570 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.68 Celsius
+Humidity: 45.7 %
+Pressure: 96866.92 Pa
+Timestamp: 295096 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.63 Celsius
+Humidity: 45.7 %
+Pressure: 96854.64 Pa
+Timestamp: 296623 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.53 Celsius
+Humidity: 45.7 %
+Pressure: 96859.82 Pa
+Timestamp: 298150 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.43 Celsius
+Humidity: 45.8 %
+Pressure: 96861.64 Pa
+Timestamp: 299680 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.43 Celsius
+Humidity: 45.9 %
+Pressure: 96858.84 Pa
+Timestamp: 301206 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.38 Celsius
+Humidity: 45.9 %
+Pressure: 96859.19 Pa
+Timestamp: 302733 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.38 Celsius
+Humidity: 46.0 %
+Pressure: 96868.89 Pa
+Timestamp: 304260 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.41 Celsius
+Humidity: 46.0 %
+Pressure: 96860.42 Pa
+Timestamp: 305787 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.37 Celsius
+Humidity: 46.1 %
+Pressure: 96856.92 Pa
+Timestamp: 307317 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.38 Celsius
+Humidity: 46.1 %
+Pressure: 96858.75 Pa
+Timestamp: 308843 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.34 Celsius
+Humidity: 46.2 %
+Pressure: 96861.89 Pa
+Timestamp: 310370 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.44 Celsius
+Humidity: 46.5 %
+Pressure: 96869.42 Pa
+Timestamp: 311900 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.75 Celsius
+Humidity: 46.4 %
+Pressure: 96866.22 Pa
+Timestamp: 313430 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.96 Celsius
+Humidity: 46.0 %
+Pressure: 96861.98 Pa
+Timestamp: 314953 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.16 Celsius
+Humidity: 45.7 %
+Pressure: 96856.97 Pa
+Timestamp: 316480 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.31 Celsius
+Humidity: 45.6 %
+Pressure: 96858.10 Pa
+Timestamp: 318007 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.36 Celsius
+Humidity: 45.4 %
+Pressure: 96857.60 Pa
+Timestamp: 319537 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.23 Celsius
+Humidity: 45.0 %
+Pressure: 96856.10 Pa
+Timestamp: 321063 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.16 Celsius
+Humidity: 44.8 %
+Pressure: 96853.66 Pa
+Timestamp: 322590 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.12 Celsius
+Humidity: 44.8 %
+Pressure: 96863.28 Pa
+Timestamp: 324120 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.07 Celsius
+Humidity: 44.9 %
+Pressure: 96862.85 Pa
+Timestamp: 325646 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.05 Celsius
+Humidity: 44.8 %
+Pressure: 96865.83 Pa
+Timestamp: 327174 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.00 Celsius
+Humidity: 44.6 %
+Pressure: 96859.39 Pa
+Timestamp: 328700 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.89 Celsius
+Humidity: 44.6 %
+Pressure: 96860.00 Pa
+Timestamp: 330224 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.82 Celsius
+Humidity: 44.7 %
+Pressure: 96860.62 Pa
+Timestamp: 331753 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.75 Celsius
+Humidity: 44.7 %
+Pressure: 96868.24 Pa
+Timestamp: 333280 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.68 Celsius
+Humidity: 44.7 %
+Pressure: 96856.30 Pa
+Timestamp: 334810 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.58 Celsius
+Humidity: 44.7 %
+Pressure: 96854.54 Pa
+Timestamp: 336340 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.52 Celsius
+Humidity: 44.8 %
+Pressure: 96855.96 Pa
+Timestamp: 337866 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.46 Celsius
+Humidity: 45.0 %
+Pressure: 96859.82 Pa
+Timestamp: 339394 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.45 Celsius
+Humidity: 45.1 %
+Pressure: 96859.72 Pa
+Timestamp: 340920 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.42 Celsius
+Humidity: 45.1 %
+Pressure: 96854.55 Pa
+Timestamp: 342443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.34 Celsius
+Humidity: 45.0 %
+Pressure: 96857.42 Pa
+Timestamp: 343970 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.25 Celsius
+Humidity: 45.1 %
+Pressure: 96855.66 Pa
+Timestamp: 345496 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.18 Celsius
+Humidity: 45.1 %
+Pressure: 96855.82 Pa
+Timestamp: 347023 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.07 Celsius
+Humidity: 45.1 %
+Pressure: 96855.99 Pa
+Timestamp: 348554 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.02 Celsius
+Humidity: 45.3 %
+Pressure: 96860.18 Pa
+Timestamp: 350083 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.99 Celsius
+Humidity: 45.5 %
+Pressure: 96864.02 Pa
+Timestamp: 351610 Milliseconds
+-----------------------------
+J#
+Start program
+J#
+J#
+J#
+J#
+Start program
+-----------------------------
+Temperature: 25.09 Celsius
+Humidity: 45.7 %
+Pressure: 96857.64 Pa
+Timestamp: 1916 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.07 Celsius
+Humidity: 45.7 %
+Pressure: 96857.19 Pa
+Timestamp: 3443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.05 Celsius
+Humidity: 45.8 %
+Pressure: 96857.91 Pa
+Timestamp: 4970 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.04 Celsius
+Humidity: 45.9 %
+Pressure: 96864.88 Pa
+Timestamp: 6493 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.02 Celsius
+Humidity: 45.9 %
+Pressure: 96862.55 Pa
+Timestamp: 8020 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.12 Celsius
+Humidity: 46.7 %
+Pressure: 96855.21 Pa
+Timestamp: 9546 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.55 Celsius
+Humidity: 45.9 %
+Pressure: 96857.60 Pa
+Timestamp: 11073 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.22 Celsius
+Humidity: 45.4 %
+Pressure: 96860.63 Pa
+Timestamp: 12600 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.43 Celsius
+Humidity: 45.7 %
+Pressure: 96859.89 Pa
+Timestamp: 14126 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.57 Celsius
+Humidity: 45.8 %
+Pressure: 96855.62 Pa
+Timestamp: 15653 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.75 Celsius
+Humidity: 45.9 %
+Pressure: 96862.25 Pa
+Timestamp: 17180 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.29 Celsius
+Humidity: 45.3 %
+Pressure: 96863.10 Pa
+Timestamp: 18703 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.08 Celsius
+Humidity: 45.1 %
+Pressure: 96857.21 Pa
+Timestamp: 20230 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.87 Celsius
+Humidity: 44.9 %
+Pressure: 96863.77 Pa
+Timestamp: 21753 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.79 Celsius
+Humidity: 45.0 %
+Pressure: 96859.92 Pa
+Timestamp: 23280 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.93 Celsius
+Humidity: 45.0 %
+Pressure: 96859.48 Pa
+Timestamp: 24810 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.04 Celsius
+Humidity: 44.8 %
+Pressure: 96858.92 Pa
+Timestamp: 26333 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.07 Celsius
+Humidity: 44.6 %
+Pressure: 96855.85 Pa
+Timestamp: 27860 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.14 Celsius
+Humidity: 44.5 %
+Pressure: 96860.74 Pa
+Timestamp: 29383 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.25 Celsius
+Humidity: 44.5 %
+Pressure: 96855.20 Pa
+Timestamp: 30910 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.36 Celsius
+Humidity: 44.3 %
+Pressure: 96855.90 Pa
+Timestamp: 32436 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.48 Celsius
+Humidity: 44.1 %
+Pressure: 96851.03 Pa
+Timestamp: 33963 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.59 Celsius
+Humidity: 43.9 %
+Pressure: 96854.41 Pa
+Timestamp: 35490 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.70 Celsius
+Humidity: 43.6 %
+Pressure: 96854.20 Pa
+Timestamp: 37016 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.75 Celsius
+Humidity: 43.3 %
+Pressure: 96846.19 Pa
+Timestamp: 38543 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.86 Celsius
+Humidity: 43.3 %
+Pressure: 96846.77 Pa
+Timestamp: 40070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.94 Celsius
+Humidity: 43.2 %
+Pressure: 96845.30 Pa
+Timestamp: 41600 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.01 Celsius
+Humidity: 43.1 %
+Pressure: 96842.33 Pa
+Timestamp: 43123 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.98 Celsius
+Humidity: 42.8 %
+Pressure: 96843.40 Pa
+Timestamp: 44650 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.90 Celsius
+Humidity: 42.5 %
+Pressure: 96836.25 Pa
+Timestamp: 46180 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.82 Celsius
+Humidity: 42.4 %
+Pressure: 96839.61 Pa
+Timestamp: 47707 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.83 Celsius
+Humidity: 42.3 %
+Pressure: 96833.46 Pa
+Timestamp: 49233 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.80 Celsius
+Humidity: 42.2 %
+Pressure: 96832.32 Pa
+Timestamp: 50760 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.95 Celsius
+Humidity: 42.3 %
+Pressure: 96833.39 Pa
+Timestamp: 52284 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.06 Celsius
+Humidity: 42.2 %
+Pressure: 96835.96 Pa
+Timestamp: 53810 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.24 Celsius
+Humidity: 42.3 %
+Pressure: 96836.22 Pa
+Timestamp: 55333 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.28 Celsius
+Humidity: 42.1 %
+Pressure: 96827.28 Pa
+Timestamp: 56860 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.25 Celsius
+Humidity: 41.9 %
+Pressure: 96821.90 Pa
+Timestamp: 58383 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.32 Celsius
+Humidity: 41.8 %
+Pressure: 96823.53 Pa
+Timestamp: 59910 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.31 Celsius
+Humidity: 41.7 %
+Pressure: 96825.17 Pa
+Timestamp: 61436 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.46 Celsius
+Humidity: 41.8 %
+Pressure: 96820.74 Pa
+Timestamp: 62963 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.66 Celsius
+Humidity: 42.0 %
+Pressure: 96814.47 Pa
+Timestamp: 64490 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.78 Celsius
+Humidity: 42.0 %
+Pressure: 96814.64 Pa
+Timestamp: 66013 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.89 Celsius
+Humidity: 41.7 %
+Pressure: 96810.49 Pa
+Timestamp: 67540 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.98 Celsius
+Humidity: 41.5 %
+Pressure: 96805.15 Pa
+Timestamp: 69070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.10 Celsius
+Humidity: 41.1 %
+Pressure: 96815.47 Pa
+Timestamp: 70596 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.22 Celsius
+Humidity: 41.0 %
+Pressure: 96816.02 Pa
+Timestamp: 72123 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.18 Celsius
+Humidity: 40.6 %
+Pressure: 96810.02 Pa
+Timestamp: 73650 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.11 Celsius
+Humidity: 40.4 %
+Pressure: 96821.70 Pa
+Timestamp: 75173 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.17 Celsius
+Humidity: 40.5 %
+Pressure: 96809.34 Pa
+Timestamp: 76700 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.25 Celsius
+Humidity: 40.4 %
+Pressure: 96807.85 Pa
+Timestamp: 78223 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.22 Celsius
+Humidity: 40.2 %
+Pressure: 96810.99 Pa
+Timestamp: 79750 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.26 Celsius
+Humidity: 40.1 %
+Pressure: 96813.76 Pa
+Timestamp: 81276 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.29 Celsius
+Humidity: 39.9 %
+Pressure: 96801.67 Pa
+Timestamp: 82807 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.20 Celsius
+Humidity: 39.8 %
+Pressure: 96802.40 Pa
+Timestamp: 84334 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 28.18 Celsius
+Humidity: 39.6 %
+Pressure: 96801.43 Pa
+Timestamp: 85860 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.99 Celsius
+Humidity: 39.5 %
+Pressure: 96800.39 Pa
+Timestamp: 87390 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.84 Celsius
+Humidity: 39.5 %
+Pressure: 96799.35 Pa
+Timestamp: 88920 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.67 Celsius
+Humidity: 39.5 %
+Pressure: 96810.42 Pa
+Timestamp: 90450 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.61 Celsius
+Humidity: 39.6 %
+Pressure: 96812.42 Pa
+Timestamp: 91980 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.57 Celsius
+Humidity: 39.6 %
+Pressure: 96808.35 Pa
+Timestamp: 93507 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.62 Celsius
+Humidity: 39.7 %
+Pressure: 96802.63 Pa
+Timestamp: 95036 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.48 Celsius
+Humidity: 39.8 %
+Pressure: 96812.00 Pa
+Timestamp: 96563 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.34 Celsius
+Humidity: 39.9 %
+Pressure: 96803.22 Pa
+Timestamp: 98090 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.24 Celsius
+Humidity: 40.1 %
+Pressure: 96803.96 Pa
+Timestamp: 99620 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.25 Celsius
+Humidity: 40.4 %
+Pressure: 96808.60 Pa
+Timestamp: 101150 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.19 Celsius
+Humidity: 40.5 %
+Pressure: 96806.11 Pa
+Timestamp: 102676 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.12 Celsius
+Humidity: 40.6 %
+Pressure: 96807.85 Pa
+Timestamp: 104206 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.03 Celsius
+Humidity: 40.7 %
+Pressure: 96808.86 Pa
+Timestamp: 105736 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.95 Celsius
+Humidity: 40.9 %
+Pressure: 96804.07 Pa
+Timestamp: 107263 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.89 Celsius
+Humidity: 41.0 %
+Pressure: 96801.71 Pa
+Timestamp: 108793 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.84 Celsius
+Humidity: 41.1 %
+Pressure: 96800.00 Pa
+Timestamp: 110320 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.76 Celsius
+Humidity: 41.2 %
+Pressure: 96811.88 Pa
+Timestamp: 111850 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.69 Celsius
+Humidity: 41.3 %
+Pressure: 96807.51 Pa
+Timestamp: 113380 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.67 Celsius
+Humidity: 41.4 %
+Pressure: 96804.72 Pa
+Timestamp: 114910 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.58 Celsius
+Humidity: 41.4 %
+Pressure: 96804.58 Pa
+Timestamp: 116436 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.55 Celsius
+Humidity: 41.5 %
+Pressure: 96809.58 Pa
+Timestamp: 117963 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.55 Celsius
+Humidity: 41.6 %
+Pressure: 96811.86 Pa
+Timestamp: 119490 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.49 Celsius
+Humidity: 41.7 %
+Pressure: 96809.03 Pa
+Timestamp: 121016 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.47 Celsius
+Humidity: 41.9 %
+Pressure: 96805.57 Pa
+Timestamp: 122543 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.47 Celsius
+Humidity: 42.0 %
+Pressure: 96808.60 Pa
+Timestamp: 124070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.43 Celsius
+Humidity: 42.1 %
+Pressure: 96803.52 Pa
+Timestamp: 125600 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.38 Celsius
+Humidity: 42.1 %
+Pressure: 96811.52 Pa
+Timestamp: 127127 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.32 Celsius
+Humidity: 42.0 %
+Pressure: 96804.51 Pa
+Timestamp: 128656 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.35 Celsius
+Humidity: 42.1 %
+Pressure: 96806.87 Pa
+Timestamp: 130186 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.34 Celsius
+Humidity: 42.2 %
+Pressure: 96807.58 Pa
+Timestamp: 131716 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.29 Celsius
+Humidity: 42.1 %
+Pressure: 96798.97 Pa
+Timestamp: 133243 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.16 Celsius
+Humidity: 42.0 %
+Pressure: 96805.50 Pa
+Timestamp: 134770 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.02 Celsius
+Humidity: 42.1 %
+Pressure: 96810.99 Pa
+Timestamp: 136296 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.85 Celsius
+Humidity: 42.1 %
+Pressure: 96808.64 Pa
+Timestamp: 137824 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.63 Celsius
+Humidity: 42.2 %
+Pressure: 96799.17 Pa
+Timestamp: 139350 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.44 Celsius
+Humidity: 42.2 %
+Pressure: 96801.12 Pa
+Timestamp: 140873 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.33 Celsius
+Humidity: 42.5 %
+Pressure: 96811.35 Pa
+Timestamp: 142400 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.28 Celsius
+Humidity: 42.6 %
+Pressure: 96806.53 Pa
+Timestamp: 143930 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.12 Celsius
+Humidity: 42.7 %
+Pressure: 96810.00 Pa
+Timestamp: 145460 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.01 Celsius
+Humidity: 42.9 %
+Pressure: 96804.32 Pa
+Timestamp: 146986 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.93 Celsius
+Humidity: 43.1 %
+Pressure: 96813.01 Pa
+Timestamp: 148513 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.87 Celsius
+Humidity: 43.3 %
+Pressure: 96810.89 Pa
+Timestamp: 150040 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.79 Celsius
+Humidity: 43.4 %
+Pressure: 96804.15 Pa
+Timestamp: 151570 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.75 Celsius
+Humidity: 43.5 %
+Pressure: 96807.75 Pa
+Timestamp: 153096 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.93 Celsius
+Humidity: 43.8 %
+Pressure: 96815.25 Pa
+Timestamp: 154624 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.09 Celsius
+Humidity: 43.7 %
+Pressure: 96814.82 Pa
+Timestamp: 156150 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.20 Celsius
+Humidity: 43.7 %
+Pressure: 96817.36 Pa
+Timestamp: 157677 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.29 Celsius
+Humidity: 43.7 %
+Pressure: 96819.22 Pa
+Timestamp: 159204 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.41 Celsius
+Humidity: 43.6 %
+Pressure: 96812.14 Pa
+Timestamp: 160730 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.51 Celsius
+Humidity: 43.5 %
+Pressure: 96824.02 Pa
+Timestamp: 162253 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.62 Celsius
+Humidity: 43.3 %
+Pressure: 96820.11 Pa
+Timestamp: 163780 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.79 Celsius
+Humidity: 43.3 %
+Pressure: 96818.88 Pa
+Timestamp: 165310 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.90 Celsius
+Humidity: 43.1 %
+Pressure: 96818.35 Pa
+Timestamp: 166840 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.02 Celsius
+Humidity: 43.1 %
+Pressure: 96821.35 Pa
+Timestamp: 168370 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.13 Celsius
+Humidity: 43.0 %
+Pressure: 96823.53 Pa
+Timestamp: 169894 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.29 Celsius
+Humidity: 42.9 %
+Pressure: 96816.16 Pa
+Timestamp: 171423 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.40 Celsius
+Humidity: 42.8 %
+Pressure: 96818.32 Pa
+Timestamp: 172950 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.49 Celsius
+Humidity: 42.6 %
+Pressure: 96813.96 Pa
+Timestamp: 174476 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.25 Celsius
+Humidity: 42.6 %
+Pressure: 96813.61 Pa
+Timestamp: 176007 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.45 Celsius
+Humidity: 42.8 %
+Pressure: 96805.52 Pa
+Timestamp: 177536 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.34 Celsius
+Humidity: 42.6 %
+Pressure: 96814.58 Pa
+Timestamp: 179066 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.36 Celsius
+Humidity: 42.5 %
+Pressure: 96816.67 Pa
+Timestamp: 180597 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.44 Celsius
+Humidity: 42.3 %
+Pressure: 96824.53 Pa
+Timestamp: 182126 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.46 Celsius
+Humidity: 42.2 %
+Pressure: 96827.65 Pa
+Timestamp: 183656 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.53 Celsius
+Humidity: 42.2 %
+Pressure: 96822.80 Pa
+Timestamp: 185186 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.60 Celsius
+Humidity: 42.1 %
+Pressure: 96821.81 Pa
+Timestamp: 186714 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.72 Celsius
+Humidity: 42.1 %
+Pressure: 96820.88 Pa
+Timestamp: 188240 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.82 Celsius
+Humidity: 41.9 %
+Pressure: 96823.03 Pa
+Timestamp: 189764 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.91 Celsius
+Humidity: 41.8 %
+Pressure: 96814.22 Pa
+Timestamp: 191293 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.90 Celsius
+Humidity: 41.5 %
+Pressure: 96821.16 Pa
+Timestamp: 192820 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.92 Celsius
+Humidity: 41.4 %
+Pressure: 96817.80 Pa
+Timestamp: 194346 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.01 Celsius
+Humidity: 41.4 %
+Pressure: 96821.86 Pa
+Timestamp: 195873 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.12 Celsius
+Humidity: 41.3 %
+Pressure: 96813.13 Pa
+Timestamp: 197400 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.23 Celsius
+Humidity: 41.3 %
+Pressure: 96817.97 Pa
+Timestamp: 198923 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.31 Celsius
+Humidity: 41.1 %
+Pressure: 96825.11 Pa
+Timestamp: 200450 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.42 Celsius
+Humidity: 41.0 %
+Pressure: 96824.91 Pa
+Timestamp: 201976 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.50 Celsius
+Humidity: 40.9 %
+Pressure: 96812.15 Pa
+Timestamp: 203504 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.52 Celsius
+Humidity: 40.8 %
+Pressure: 96815.30 Pa
+Timestamp: 205030 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.53 Celsius
+Humidity: 40.7 %
+Pressure: 96814.51 Pa
+Timestamp: 206556 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.52 Celsius
+Humidity: 40.6 %
+Pressure: 96817.60 Pa
+Timestamp: 208083 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.49 Celsius
+Humidity: 40.5 %
+Pressure: 96821.82 Pa
+Timestamp: 209610 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.46 Celsius
+Humidity: 40.5 %
+Pressure: 96822.19 Pa
+Timestamp: 211140 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.48 Celsius
+Humidity: 40.4 %
+Pressure: 96813.72 Pa
+Timestamp: 212670 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.57 Celsius
+Humidity: 40.4 %
+Pressure: 96813.09 Pa
+Timestamp: 214196 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.59 Celsius
+Humidity: 40.3 %
+Pressure: 96816.24 Pa
+Timestamp: 215723 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.59 Celsius
+Humidity: 40.2 %
+Pressure: 96816.86 Pa
+Timestamp: 217250 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.51 Celsius
+Humidity: 40.1 %
+Pressure: 96812.82 Pa
+Timestamp: 218780 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.40 Celsius
+Humidity: 40.1 %
+Pressure: 96819.31 Pa
+Timestamp: 220310 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.36 Celsius
+Humidity: 40.2 %
+Pressure: 96818.89 Pa
+Timestamp: 221840 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.38 Celsius
+Humidity: 40.3 %
+Pressure: 96816.23 Pa
+Timestamp: 223363 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.38 Celsius
+Humidity: 40.3 %
+Pressure: 96814.33 Pa
+Timestamp: 224893 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.46 Celsius
+Humidity: 40.4 %
+Pressure: 96813.66 Pa
+Timestamp: 226420 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.54 Celsius
+Humidity: 40.4 %
+Pressure: 96824.75 Pa
+Timestamp: 227950 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.64 Celsius
+Humidity: 40.3 %
+Pressure: 96816.71 Pa
+Timestamp: 229476 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.67 Celsius
+Humidity: 40.3 %
+Pressure: 96818.64 Pa
+Timestamp: 231006 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.65 Celsius
+Humidity: 40.2 %
+Pressure: 96814.36 Pa
+Timestamp: 232534 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.60 Celsius
+Humidity: 40.1 %
+Pressure: 96823.10 Pa
+Timestamp: 234060 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.49 Celsius
+Humidity: 40.0 %
+Pressure: 96809.74 Pa
+Timestamp: 235590 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.43 Celsius
+Humidity: 40.0 %
+Pressure: 96814.29 Pa
+Timestamp: 237120 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.38 Celsius
+Humidity: 40.1 %
+Pressure: 96818.94 Pa
+Timestamp: 238647 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.35 Celsius
+Humidity: 40.2 %
+Pressure: 96814.96 Pa
+Timestamp: 240176 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.30 Celsius
+Humidity: 40.3 %
+Pressure: 96819.97 Pa
+Timestamp: 241707 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.31 Celsius
+Humidity: 40.4 %
+Pressure: 96818.39 Pa
+Timestamp: 243240 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.26 Celsius
+Humidity: 40.4 %
+Pressure: 96814.83 Pa
+Timestamp: 244770 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.32 Celsius
+Humidity: 40.5 %
+Pressure: 96822.03 Pa
+Timestamp: 246300 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.37 Celsius
+Humidity: 40.5 %
+Pressure: 96813.93 Pa
+Timestamp: 247826 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.39 Celsius
+Humidity: 40.5 %
+Pressure: 96818.22 Pa
+Timestamp: 249353 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.42 Celsius
+Humidity: 40.5 %
+Pressure: 96816.65 Pa
+Timestamp: 250880 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.42 Celsius
+Humidity: 40.4 %
+Pressure: 96817.05 Pa
+Timestamp: 252410 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.46 Celsius
+Humidity: 40.4 %
+Pressure: 96817.89 Pa
+Timestamp: 253940 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.43 Celsius
+Humidity: 40.3 %
+Pressure: 96813.53 Pa
+Timestamp: 255470 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.43 Celsius
+Humidity: 40.3 %
+Pressure: 96816.32 Pa
+Timestamp: 257000 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.48 Celsius
+Humidity: 40.2 %
+Pressure: 96816.02 Pa
+Timestamp: 258530 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.55 Celsius
+Humidity: 40.2 %
+Pressure: 96816.24 Pa
+Timestamp: 260060 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.59 Celsius
+Humidity: 40.2 %
+Pressure: 96812.72 Pa
+Timestamp: 261584 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.60 Celsius
+Humidity: 40.4 %
+Pressure: 96819.74 Pa
+Timestamp: 263110 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.62 Celsius
+Humidity: 40.1 %
+Pressure: 96818.71 Pa
+Timestamp: 264636 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.77 Celsius
+Humidity: 40.1 %
+Pressure: 96820.28 Pa
+Timestamp: 266164 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.74 Celsius
+Humidity: 40.1 %
+Pressure: 96811.02 Pa
+Timestamp: 267690 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.80 Celsius
+Humidity: 40.1 %
+Pressure: 96816.16 Pa
+Timestamp: 269216 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.85 Celsius
+Humidity: 40.0 %
+Pressure: 96818.60 Pa
+Timestamp: 270744 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.93 Celsius
+Humidity: 40.0 %
+Pressure: 96822.16 Pa
+Timestamp: 272273 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.86 Celsius
+Humidity: 39.9 %
+Pressure: 96821.24 Pa
+Timestamp: 273800 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.68 Celsius
+Humidity: 39.9 %
+Pressure: 96824.75 Pa
+Timestamp: 275326 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.48 Celsius
+Humidity: 40.0 %
+Pressure: 96817.44 Pa
+Timestamp: 276853 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.29 Celsius
+Humidity: 40.0 %
+Pressure: 96822.56 Pa
+Timestamp: 278380 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.18 Celsius
+Humidity: 40.2 %
+Pressure: 96825.08 Pa
+Timestamp: 279907 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.04 Celsius
+Humidity: 40.3 %
+Pressure: 96831.46 Pa
+Timestamp: 281433 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.95 Celsius
+Humidity: 40.5 %
+Pressure: 96824.31 Pa
+Timestamp: 282960 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.88 Celsius
+Humidity: 40.6 %
+Pressure: 96823.32 Pa
+Timestamp: 284490 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.77 Celsius
+Humidity: 40.7 %
+Pressure: 96820.81 Pa
+Timestamp: 286020 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.63 Celsius
+Humidity: 40.8 %
+Pressure: 96823.66 Pa
+Timestamp: 287550 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.55 Celsius
+Humidity: 41.0 %
+Pressure: 96825.80 Pa
+Timestamp: 289076 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.48 Celsius
+Humidity: 41.1 %
+Pressure: 96823.39 Pa
+Timestamp: 290606 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.42 Celsius
+Humidity: 41.2 %
+Pressure: 96821.32 Pa
+Timestamp: 292136 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.39 Celsius
+Humidity: 41.4 %
+Pressure: 96821.32 Pa
+Timestamp: 293666 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.39 Celsius
+Humidity: 41.6 %
+Pressure: 96829.46 Pa
+Timestamp: 295193 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.40 Celsius
+Humidity: 41.7 %
+Pressure: 96826.39 Pa
+Timestamp: 296720 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.41 Celsius
+Humidity: 41.9 %
+Pressure: 96822.89 Pa
+Timestamp: 298250 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.40 Celsius
+Humidity: 42.0 %
+Pressure: 96827.17 Pa
+Timestamp: 299780 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.40 Celsius
+Humidity: 42.2 %
+Pressure: 96824.03 Pa
+Timestamp: 301306 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.40 Celsius
+Humidity: 42.2 %
+Pressure: 96827.89 Pa
+Timestamp: 302837 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.36 Celsius
+Humidity: 42.2 %
+Pressure: 96829.30 Pa
+Timestamp: 304370 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.28 Celsius
+Humidity: 42.2 %
+Pressure: 96831.04 Pa
+Timestamp: 305900 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.23 Celsius
+Humidity: 42.2 %
+Pressure: 96825.53 Pa
+Timestamp: 307430 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.18 Celsius
+Humidity: 42.3 %
+Pressure: 96828.96 Pa
+Timestamp: 308960 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.16 Celsius
+Humidity: 42.4 %
+Pressure: 96825.80 Pa
+Timestamp: 310490 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.16 Celsius
+Humidity: 42.4 %
+Pressure: 96828.08 Pa
+Timestamp: 312020 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.12 Celsius
+Humidity: 42.5 %
+Pressure: 96831.16 Pa
+Timestamp: 313543 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.13 Celsius
+Humidity: 42.6 %
+Pressure: 96826.08 Pa
+Timestamp: 315070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.10 Celsius
+Humidity: 42.6 %
+Pressure: 96828.35 Pa
+Timestamp: 316593 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.07 Celsius
+Humidity: 42.6 %
+Pressure: 96829.07 Pa
+Timestamp: 318120 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.05 Celsius
+Humidity: 42.7 %
+Pressure: 96827.49 Pa
+Timestamp: 319646 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.04 Celsius
+Humidity: 42.9 %
+Pressure: 96828.63 Pa
+Timestamp: 321176 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.04 Celsius
+Humidity: 43.0 %
+Pressure: 96828.63 Pa
+Timestamp: 322710 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.04 Celsius
+Humidity: 43.0 %
+Pressure: 96826.27 Pa
+Timestamp: 324234 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.02 Celsius
+Humidity: 43.1 %
+Pressure: 96827.41 Pa
+Timestamp: 325760 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.99 Celsius
+Humidity: 43.0 %
+Pressure: 96828.06 Pa
+Timestamp: 327286 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.91 Celsius
+Humidity: 43.0 %
+Pressure: 96824.47 Pa
+Timestamp: 328813 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.85 Celsius
+Humidity: 43.0 %
+Pressure: 96822.38 Pa
+Timestamp: 330340 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.82 Celsius
+Humidity: 43.2 %
+Pressure: 96824.57 Pa
+Timestamp: 331866 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.77 Celsius
+Humidity: 43.3 %
+Pressure: 96826.41 Pa
+Timestamp: 333400 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.87 Celsius
+Humidity: 43.3 %
+Pressure: 96831.69 Pa
+Timestamp: 334930 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.18 Celsius
+Humidity: 43.2 %
+Pressure: 96829.82 Pa
+Timestamp: 336460 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.27 Celsius
+Humidity: 43.0 %
+Pressure: 96826.13 Pa
+Timestamp: 337990 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.29 Celsius
+Humidity: 42.7 %
+Pressure: 96829.98 Pa
+Timestamp: 339520 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.29 Celsius
+Humidity: 42.6 %
+Pressure: 96823.52 Pa
+Timestamp: 341050 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.38 Celsius
+Humidity: 42.5 %
+Pressure: 96820.17 Pa
+Timestamp: 342576 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.44 Celsius
+Humidity: 42.4 %
+Pressure: 96821.08 Pa
+Timestamp: 344104 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.34 Celsius
+Humidity: 42.4 %
+Pressure: 96804.96 Pa
+Timestamp: 345633 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.08 Celsius
+Humidity: 42.5 %
+Pressure: 96811.56 Pa
+Timestamp: 347160 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.99 Celsius
+Humidity: 42.6 %
+Pressure: 96809.07 Pa
+Timestamp: 348690 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.04 Celsius
+Humidity: 42.6 %
+Pressure: 96817.23 Pa
+Timestamp: 350220 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.31 Celsius
+Humidity: 42.6 %
+Pressure: 96805.46 Pa
+Timestamp: 351750 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.52 Celsius
+Humidity: 42.4 %
+Pressure: 96817.44 Pa
+Timestamp: 353276 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.68 Celsius
+Humidity: 42.3 %
+Pressure: 96818.45 Pa
+Timestamp: 354803 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.76 Celsius
+Humidity: 42.2 %
+Pressure: 96814.80 Pa
+Timestamp: 356330 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.91 Celsius
+Humidity: 42.1 %
+Pressure: 96810.78 Pa
+Timestamp: 357860 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.99 Celsius
+Humidity: 41.9 %
+Pressure: 96814.29 Pa
+Timestamp: 359390 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.99 Celsius
+Humidity: 41.8 %
+Pressure: 96812.07 Pa
+Timestamp: 360913 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.03 Celsius
+Humidity: 41.6 %
+Pressure: 96812.92 Pa
+Timestamp: 362443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.09 Celsius
+Humidity: 41.7 %
+Pressure: 96805.92 Pa
+Timestamp: 363970 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.95 Celsius
+Humidity: 41.6 %
+Pressure: 96810.78 Pa
+Timestamp: 365496 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.02 Celsius
+Humidity: 41.6 %
+Pressure: 96809.85 Pa
+Timestamp: 367030 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.14 Celsius
+Humidity: 41.5 %
+Pressure: 96810.71 Pa
+Timestamp: 368560 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 27.10 Celsius
+Humidity: 41.5 %
+Pressure: 96814.86 Pa
+Timestamp: 370083 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.97 Celsius
+Humidity: 41.4 %
+Pressure: 96808.40 Pa
+Timestamp: 371610 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.89 Celsius
+Humidity: 41.4 %
+Pressure: 96811.01 Pa
+Timestamp: 373140 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.90 Celsius
+Humidity: 41.5 %
+Pressure: 96810.51 Pa
+Timestamp: 374670 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.70 Celsius
+Humidity: 41.6 %
+Pressure: 96810.58 Pa
+Timestamp: 376200 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.59 Celsius
+Humidity: 41.8 %
+Pressure: 96811.15 Pa
+Timestamp: 377726 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.50 Celsius
+Humidity: 42.1 %
+Pressure: 96821.08 Pa
+Timestamp: 379253 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.49 Celsius
+Humidity: 42.1 %
+Pressure: 96821.39 Pa
+Timestamp: 380780 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.34 Celsius
+Humidity: 42.1 %
+Pressure: 96813.01 Pa
+Timestamp: 382310 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.20 Celsius
+Humidity: 42.1 %
+Pressure: 96816.52 Pa
+Timestamp: 383834 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.15 Celsius
+Humidity: 42.3 %
+Pressure: 96818.28 Pa
+Timestamp: 385360 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 26.00 Celsius
+Humidity: 42.4 %
+Pressure: 96815.99 Pa
+Timestamp: 386883 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.83 Celsius
+Humidity: 42.5 %
+Pressure: 96817.22 Pa
+Timestamp: 388410 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.71 Celsius
+Humidity: 42.7 %
+Pressure: 96811.46 Pa
+Timestamp: 389936 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.58 Celsius
+Humidity: 42.9 %
+Pressure: 96817.72 Pa
+Timestamp: 391463 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.44 Celsius
+Humidity: 43.0 %
+Pressure: 96815.11 Pa
+Timestamp: 392990 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.35 Celsius
+Humidity: 43.2 %
+Pressure: 96815.19 Pa
+Timestamp: 394516 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.24 Celsius
+Humidity: 43.3 %
+Pressure: 96822.35 Pa
+Timestamp: 396046 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.15 Celsius
+Humidity: 43.5 %
+Pressure: 96810.44 Pa
+Timestamp: 397573 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 25.04 Celsius
+Humidity: 43.7 %
+Pressure: 96809.83 Pa
+Timestamp: 399100 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.99 Celsius
+Humidity: 43.9 %
+Pressure: 96823.28 Pa
+Timestamp: 400630 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.93 Celsius
+Humidity: 44.0 %
+Pressure: 96811.10 Pa
+Timestamp: 402157 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.94 Celsius
+Humidity: 44.3 %
+Pressure: 96814.25 Pa
+Timestamp: 403686 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.90 Celsius
+Humidity: 44.4 %
+Pressure: 96818.78 Pa
+Timestamp: 405213 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.86 Celsius
+Humidity: 44.3 %
+Pressure: 96818.33 Pa
+Timestamp: 406740 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.87 Celsius
+Humidity: 44.7 %
+Pressure: 96822.62 Pa
+Timestamp: 408270 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.90 Celsius
+Humidity: 44.8 %
+Pressure: 96817.30 Pa
+Timestamp: 409800 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.89 Celsius
+Humidity: 44.9 %
+Pressure: 96817.99 Pa
+Timestamp: 411330 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.89 Celsius
+Humidity: 44.9 %
+Pressure: 96817.20 Pa
+Timestamp: 412860 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.88 Celsius
+Humidity: 45.0 %
+Pressure: 96820.35 Pa
+Timestamp: 414386 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.88 Celsius
+Humidity: 44.9 %
+Pressure: 96816.21 Pa
+Timestamp: 415916 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.71 Celsius
+Humidity: 44.8 %
+Pressure: 96818.63 Pa
+Timestamp: 417443 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.68 Celsius
+Humidity: 44.9 %
+Pressure: 96822.91 Pa
+Timestamp: 418970 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.72 Celsius
+Humidity: 44.9 %
+Pressure: 96814.34 Pa
+Timestamp: 420493 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.70 Celsius
+Humidity: 45.0 %
+Pressure: 96819.75 Pa
+Timestamp: 422020 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.67 Celsius
+Humidity: 45.0 %
+Pressure: 96821.24 Pa
+Timestamp: 423544 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.63 Celsius
+Humidity: 45.0 %
+Pressure: 96816.85 Pa
+Timestamp: 425070 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.62 Celsius
+Humidity: 45.1 %
+Pressure: 96819.11 Pa
+Timestamp: 426597 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.59 Celsius
+Humidity: 45.2 %
+Pressure: 96820.24 Pa
+Timestamp: 428123 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.60 Celsius
+Humidity: 45.3 %
+Pressure: 96820.24 Pa
+Timestamp: 429650 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.58 Celsius
+Humidity: 45.3 %
+Pressure: 96824.08 Pa
+Timestamp: 431174 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.59 Celsius
+Humidity: 45.4 %
+Pressure: 96821.47 Pa
+Timestamp: 432700 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.62 Celsius
+Humidity: 45.5 %
+Pressure: 96829.60 Pa
+Timestamp: 434230 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.61 Celsius
+Humidity: 45.6 %
+Pressure: 96821.47 Pa
+Timestamp: 435753 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.63 Celsius
+Humidity: 45.7 %
+Pressure: 96816.40 Pa
+Timestamp: 437280 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.59 Celsius
+Humidity: 45.7 %
+Pressure: 96820.24 Pa
+Timestamp: 438806 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.56 Celsius
+Humidity: 45.6 %
+Pressure: 96820.96 Pa
+Timestamp: 440336 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.52 Celsius
+Humidity: 45.6 %
+Pressure: 96814.64 Pa
+Timestamp: 441866 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.51 Celsius
+Humidity: 45.6 %
+Pressure: 96819.62 Pa
+Timestamp: 443393 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.51 Celsius
+Humidity: 45.7 %
+Pressure: 96816.91 Pa
+Timestamp: 444920 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.50 Celsius
+Humidity: 45.8 %
+Pressure: 96819.62 Pa
+Timestamp: 446450 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.47 Celsius
+Humidity: 45.8 %
+Pressure: 96817.25 Pa
+Timestamp: 447974 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.45 Celsius
+Humidity: 45.8 %
+Pressure: 96817.39 Pa
+Timestamp: 449504 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.34 Celsius
+Humidity: 45.7 %
+Pressure: 96812.55 Pa
+Timestamp: 451034 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.34 Celsius
+Humidity: 45.8 %
+Pressure: 96814.02 Pa
+Timestamp: 452563 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.27 Celsius
+Humidity: 45.7 %
+Pressure: 96818.53 Pa
+Timestamp: 454090 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.27 Celsius
+Humidity: 46.1 %
+Pressure: 96818.53 Pa
+Timestamp: 455620 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.26 Celsius
+Humidity: 46.2 %
+Pressure: 96814.71 Pa
+Timestamp: 457146 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.27 Celsius
+Humidity: 46.2 %
+Pressure: 96813.78 Pa
+Timestamp: 458673 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.21 Celsius
+Humidity: 46.3 %
+Pressure: 96814.46 Pa
+Timestamp: 460200 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.19 Celsius
+Humidity: 46.3 %
+Pressure: 96814.69 Pa
+Timestamp: 461727 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.13 Celsius
+Humidity: 46.3 %
+Pressure: 96817.39 Pa
+Timestamp: 463254 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.16 Celsius
+Humidity: 46.5 %
+Pressure: 96817.85 Pa
+Timestamp: 464780 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.19 Celsius
+Humidity: 46.6 %
+Pressure: 96822.13 Pa
+Timestamp: 466310 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.16 Celsius
+Humidity: 46.5 %
+Pressure: 96818.97 Pa
+Timestamp: 467836 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.14 Celsius
+Humidity: 46.5 %
+Pressure: 96818.53 Pa
+Timestamp: 469363 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.11 Celsius
+Humidity: 46.5 %
+Pressure: 96818.00 Pa
+Timestamp: 470890 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.07 Celsius
+Humidity: 46.6 %
+Pressure: 96821.05 Pa
+Timestamp: 472417 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.06 Celsius
+Humidity: 46.6 %
+Pressure: 96812.48 Pa
+Timestamp: 473950 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.03 Celsius
+Humidity: 46.6 %
+Pressure: 96817.44 Pa
+Timestamp: 475476 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.06 Celsius
+Humidity: 46.7 %
+Pressure: 96814.06 Pa
+Timestamp: 477003 Milliseconds
+-----------------------------
+-----------------------------
+Temperature: 24.04 Celsius
+Humidity: 46.7 %
+Pressure: 96816.32 Pa
+Timestamp: 478530 Milliseconds
+-----------------------------

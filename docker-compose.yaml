@@ -1,0 +1,131 @@
+version: "3.8"
+
+services:
+  simulator:
+    build:
+      context: ./simulator
+    container_name: sensor-simulator
+    environment:
+      - BROKER=host.docker.internal # will be containerized for prod
+      - PORT=1883
+      - TOPIC=sensor/data
+      - DELAY=2
+    networks:
+      - plantnet
+
+  ipfs:
+    image: ipfs/go-ipfs:v0.18.0
+    container_name: ipfs
+    ports:
+      - "4001:4001"
+      - "5001:5001"
+      - "8080:8080"
+    volumes:
+      - ./aggregator/ipfs-data:/data/ipfs
+    networks:
+      - plantnet
+
+  aggregator:
+    build:
+      context: ./aggregator
+    container_name: aggregator
+    depends_on:
+      - ipfs
+    volumes:
+      - ./data:/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    env_file:
+      - ./aggregator/.env
+    networks:
+      - plantnet
+
+  orderer.plantnet.com:
+    container_name: orderer.plantnet.com
+    image: hyperledger/fabric-orderer:2.5
+    environment:
+      - ORDERER_GENERAL_LOGLEVEL=info
+      - ORDERER_GENERAL_LISTENADDRESS=0.0.0.0
+      - ORDERER_GENERAL_GENESISMETHOD=file
+      - ORDERER_GENERAL_GENESISFILE=/var/hyperledger/orderer/genesis.block
+      - ORDERER_GENERAL_LOCALMSPID=OrdererMSP
+      - ORDERER_GENERAL_LOCALMSPDIR=/var/hyperledger/orderer/msp
+      - ORDERER_GENERAL_TLS_ENABLED=true
+      - ORDERER_GENERAL_TLS_PRIVATEKEY=/var/hyperledger/orderer/tls/server.key
+      - ORDERER_GENERAL_TLS_CERTIFICATE=/var/hyperledger/orderer/tls/server.crt
+      - ORDERER_GENERAL_TLS_ROOTCAS=/var/hyperledger/orderer/tls/ca.crt
+    volumes:
+      - ./fabric/channel-artifacts/genesis.block:/var/hyperledger/orderer/genesis.block
+      - ./fabric/crypto-config/ordererOrganizations/plantnet.com/orderers/orderer.plantnet.com/msp:/var/hyperledger/orderer/msp
+      - ./fabric/crypto-config/ordererOrganizations/plantnet.com/orderers/orderer.plantnet.com/tls:/var/hyperledger/orderer/tls
+    ports:
+      - 7050:7050
+    networks:
+      - plantnet
+
+  peer0.plantorg.plantnet.com:
+    container_name: peer0.plantorg.plantnet.com
+    hostname: peer0.plantorg.plantnet.com
+    image: hyperledger/fabric-peer:2.5
+    environment:
+      - CORE_PEER_ID=peer0.plantorg.plantnet.com
+      - CORE_PEER_ADDRESS=peer0.plantorg.plantnet.com:7051
+      - CORE_PEER_LISTENADDRESS=0.0.0.0:7051
+      - CORE_PEER_CHAINCODEADDRESS=peer0.plantorg.plantnet.com:7052
+      - CORE_PEER_CHAINCODELISTENADDRESS=0.0.0.0:7052
+      - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.plantorg.plantnet.com:7051
+      - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.plantorg.plantnet.com:7051
+      - CORE_PEER_LOCALMSPID=PlantOrgMSP
+      - CORE_PEER_MSPCONFIGPATH=/var/hyperledger/peer/msp
+      - CORE_PEER_TLS_ENABLED=true
+      - CORE_PEER_TLS_CERT_FILE=/var/hyperledger/peer/tls/server.crt
+      - CORE_PEER_TLS_KEY_FILE=/var/hyperledger/peer/tls/server.key
+      - CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/tls/ca.crt
+      - CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE=plantnet
+      - CORE_CHAINCODE_KEEPALIVE=60s
+    volumes:
+      - ./fabric/crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto
+      - ./fabric/crypto-config/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/msp:/var/hyperledger/peer/msp
+      - ./fabric/crypto-config/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/tls:/var/hyperledger/peer/tls
+      - /var/run/docker.sock:/var/run/docker.sock
+      - peer0-data:/var/hyperledger/production
+    ports:
+      - 7051:7051
+      - 7052:7052
+    networks:
+      plantnet:
+        aliases:
+          - peer0.plantorg.plantnet.com
+
+  cli:
+    container_name: cli
+    image: hyperledger/fabric-tools:2.5
+    tty: true
+    stdin_open: true
+    environment:
+      - CORE_PEER_ID=cli
+      - CORE_PEER_ADDRESS=peer0.plantorg.plantnet.com:7051
+      - CORE_PEER_LOCALMSPID=PlantOrgMSP
+      - CORE_PEER_TLS_ENABLED=true
+      - FABRIC_CFG_PATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/config
+      - CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/tls/ca.crt
+      - CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/plantorg.plantnet.com/users/Admin@plantorg.plantnet.com/msp
+    working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
+    command: /bin/bash
+    volumes:
+      - ./fabric/crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto
+      - ./fabric/channel-artifacts:/opt/gopath/src/github.com/hyperledger/fabric/peer/channel-artifacts
+      - ./fabric/chaincode:/opt/gopath/src/github.com/hyperledger/fabric/chaincode
+      - ./fabric/config:/opt/gopath/src/github.com/hyperledger/fabric/peer/config
+      - ./fabric/scripts:/opt/gopath/src/github.com/hyperledger/fabric/peer/scripts
+      - ./data:/data
+      - ./fabric/.env:/fabric/.env
+    networks:
+      - plantnet
+
+networks:
+  plantnet:
+    name: plantnet
+
+volumes:
+  peer0-data:
