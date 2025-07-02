@@ -8,6 +8,7 @@ The current version of the project does not yet include automatic NFT minting. H
 - This lays the groundwork for the next phase of the project: implementing a Java-based “minter” service that will use the official Fabric SDK to mint NFTs from the aggregated data.
 - While future updates may include migrating some Python components to Java for consistency, the current architecture remains in Python. This is intentional, as the Fabric network is now reliably operational thanks to the streamlined deployment scripts.
 
+
 ## 📁 Prerequisites
 
 Install and configure the following:
@@ -78,6 +79,37 @@ sudo systemctl start mosquitto
 ```
 
 ---
+
+### ☕ Gradle 8.14.2
+
+Install Java (JDK 17+):
+```bash
+sudo apt update
+sudo apt install openjdk-17-jdk -y
+java -version
+```
+
+Download and unpack Gradle:
+```bash
+cd ~/Downloads
+wget https://services.gradle.org/distributions/gradle-8.14.2-bin.zip
+sudo mkdir -p /opt/gradle
+sudo unzip -d /opt/gradle gradle-8.14.2-bin.zip
+```
+
+Add Gradle to your shell:
+```bash
+echo "export PATH=\$PATH:/opt/gradle/gradle-8.14.2/bin" >> ~/.bashrc
+source ~/.bashrc
+```
+
+Verify:
+```bash
+gradle -v
+```
+
+✅ You should see `Gradle 8.14.2` in the output.
+
 
 ## 🏗 1. Generate Crypto Materials & Artifacts
 

@@ -1,6 +1,6 @@
-module nfts
+module github.com/plantnet/chaincode/plantnft
 
-go 1.21.6
+go 1.23.10
 
 require github.com/hyperledger/fabric-contract-api-go v1.2.2
 

@@ -16,10 +16,10 @@ type SensorStats struct {
 
 // PlantNFT represents a plant's lifecycle certificate
 type PlantNFT struct {
-	ID        string                  `json:"id"`
-	CID       string                  `json:"cid"`
-	Timestamp int64                   `json:"timestamp"`
-	Summary   map[string]SensorStats  `json:"summary"`
+	ID        string                 `json:"id"`
+	CID       string                 `json:"cid"`
+	Timestamp int64                  `json:"timestamp"`
+	Summary   map[string]SensorStats `json:"summary"`
 }
 
 // SmartContract provides functions for managing NFTs
@@ -38,8 +38,7 @@ func (s *SmartContract) MintNFT(ctx contractapi.TransactionContextInterface, id 
 	}
 
 	var summary map[string]SensorStats
-	err = json.Unmarshal([]byte(summaryJSON), &summary)
-	if err != nil {
+	if err := json.Unmarshal([]byte(summaryJSON), &summary); err != nil {
 		return fmt.Errorf("failed to parse summary JSON: %v", err)
 	}
 
@@ -69,8 +68,7 @@ func (s *SmartContract) GetNFT(ctx contractapi.TransactionContextInterface, id s
 	}
 
 	var nft PlantNFT
-	err = json.Unmarshal(nftBytes, &nft)
-	if err != nil {
+	if err := json.Unmarshal(nftBytes, &nft); err != nil {
 		return nil, fmt.Errorf("failed to unmarshal NFT: %v", err)
 	}
 

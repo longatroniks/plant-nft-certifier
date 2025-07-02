@@ -6,7 +6,7 @@ services:
       context: ./simulator
     container_name: sensor-simulator
     environment:
-      - BROKER=host.docker.internal # will be containerized for prod
+      - BROKER=host.docker.internal
       - PORT=1883
       - TOPIC=sensor/data
       - DELAY=2
@@ -120,6 +120,21 @@ services:
       - ./fabric/scripts:/opt/gopath/src/github.com/hyperledger/fabric/peer/scripts
       - ./data:/data
       - ./fabric/.env:/fabric/.env
+    networks:
+      - plantnet
+
+  minter:
+    build:
+      context: ./minter
+    container_name: minter
+    volumes:
+      - ./data:/data
+      - ./fabric/crypto-config:/opt/fabric/crypto-config
+    depends_on:
+      - peer0.plantorg.plantnet.com
+      - orderer.plantnet.com
+    environment:
+      - TZ=UTC
     networks:
       - plantnet
 
