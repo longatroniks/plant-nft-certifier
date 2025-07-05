@@ -33,7 +33,7 @@ def start_aggregator():
                 if readings:
                     print("[⏳] No new data — assuming plant was harvested.")
                     summary = summarize_batch(readings)
-                    batch_path = save_batch_to_file(summary)
+                    batch_path = save_batch_to_file(summary, readings)
                     cid = upload_to_ipfs(batch_path)
                     if cid:
                         print(f"[NFT-READY] IPFS CID: {cid}")

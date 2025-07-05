@@ -135,6 +135,8 @@ services:
       - orderer.plantnet.com
     environment:
       - TZ=UTC
+    ports:
+      - "8081:8081"
     networks:
       - plantnet
 
