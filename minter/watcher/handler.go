@@ -7,6 +7,7 @@ import (
 
 	"github.com/plantnet/minter/fabric"
 	"github.com/plantnet/minter/parser"
+	"github.com/plantnet/minter/qr"
 )
 
 func scheduleHandle(path string) {
@@ -51,5 +52,6 @@ func handle(path string) {
 		log.Printf("❌ Failed to mint NFT: %v\n", err)
 	} else {
 		fmt.Printf("🏷️ NFT successfully minted for CID: %s\n", cidInfo.CID)
+		qr.PrintIPFSQRCode(cidInfo.CID)
 	}
 }
