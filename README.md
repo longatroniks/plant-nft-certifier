@@ -35,16 +35,21 @@ This project implements:
 
 ## Architecture
 
-[Sensor Simulator]
-↓ MQTT “sensor/data”
-[Aggregator] ──> [IPFS] ──> saves /data/cids & /data/batches
-↓ filesystem watcher
-[Minter] ──> [Fabric Gateway → Chaincode]
-↓
-[NFT ledger]
-
 ```bash
-# Example CLI gallery
+    [Sensor Simulator]
+        ↓ 
+        ↓ sends to MQTT topic “sensor/data”
+        ↓ 
+    [Aggregator] ────> [IPFS] ────> saves data to /data/cids & /data/batches
+        ↓ 
+        ↓ watched by
+        ↓ 
+    [Minter] ────> [Fabric Gateway → Chaincode]
+        ↓ 
+        ↓ 
+        ↓
+    [QR code]
+
 ```
 
 ---
