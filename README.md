@@ -126,15 +126,6 @@ echo 'export PATH=$PATH:$HOME/fabric-samples/bin' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-After installing the above, generate Fabric artifacts:
-
-```bash
-cd fabric/scripts
-chmod +x generate-artifacts.sh
-./generate-artifacts.sh
-cd ../..
-```
-
 ## Getting Started
 
 1. Clone the repository
@@ -148,11 +139,7 @@ cd plant-nft-certifier
 Copy and fill in environment templates:
 
 ```bash
-# Aggregator
-cp aggregator/.env.example aggregator/.env
-
-# Simulator
-cp simulator/.env.example simulator/.env
+cp .env.example .env
 ```
 
 Adjust any broker addresses, ports, or IPFS endpoints as needed.
@@ -205,7 +192,6 @@ exit
 ```bash
 .
 ├── aggregator
-│   ├── .env.example    # MQTT & IPFS configs
 │   ├── Dockerfile
 │   ├── requirements.txt
 │   └── src
@@ -221,7 +207,6 @@ exit
 │   ├── Dockerfile
 │   └── src             # watcher, qr, parser, fabric client
 └── simulator
-    ├── .env.example
     ├── Dockerfile
     ├── mqtt_producer.py
     └── sensor_log.txt
