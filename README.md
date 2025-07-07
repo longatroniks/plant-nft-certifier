@@ -169,8 +169,18 @@ cd ../..
 4. Build and start services
 
 ```bash
-docker compose build
-docker compose up -d
+docker compose down
+
+# For a clean slate
+docker compose down --rmi local --volumes
+
+docker compose build [simulator, aggregator,...etc.]
+
+# Test env (Only option if you don't have a Waspmote)
+docker compose --env-file .env.sim --profile sim up
+
+# In docker-compose.yaml, configure the IP that can access the mosquitto running on your local machine
+docker compose up
 ```
 
 5. Set up Fabric channel & chaincode
