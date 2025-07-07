@@ -1,17 +1,6 @@
 version: "3.8"
 
 services:
-  simulator:
-    build:
-      context: ./simulator
-    container_name: sensor-simulator
-    environment:
-      - BROKER=host.docker.internal
-      - PORT=1883
-      - TOPIC=sensor/data
-      - DELAY=2
-    networks:
-      - plantnet
 
   ipfs:
     image: ipfs/go-ipfs:v0.18.0
@@ -22,21 +11,6 @@ services:
       - "8080:8080"
     volumes:
       - ./aggregator/ipfs-data:/data/ipfs
-    networks:
-      - plantnet
-
-  aggregator:
-    build:
-      context: ./aggregator
-    container_name: aggregator
-    depends_on:
-      - ipfs
-    volumes:
-      - ./data:/data
-    environment:
-      - PYTHONUNBUFFERED=1
-    env_file:
-      - ./aggregator/.env
     networks:
       - plantnet
 
@@ -59,7 +33,7 @@ services:
       - ./fabric/crypto-config/ordererOrganizations/plantnet.com/orderers/orderer.plantnet.com/msp:/var/hyperledger/orderer/msp
       - ./fabric/crypto-config/ordererOrganizations/plantnet.com/orderers/orderer.plantnet.com/tls:/var/hyperledger/orderer/tls
     ports:
-      - 7050:7050
+      - "7050:7050"
     networks:
       - plantnet
 
@@ -90,8 +64,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - peer0-data:/var/hyperledger/production
     ports:
-      - 7051:7051
-      - 7052:7052
+      - "7051:7051"
+      - "7052:7052"
     networks:
       plantnet:
         aliases:
@@ -139,6 +113,48 @@ services:
       - "8081:8081"
     networks:
       - plantnet
+
+  mqtt-broker:
+    image: eclipse-mosquitto:2.0
+    container_name: mqtt-broker
+    ports:
+      - "1883:1883"
+    healthcheck:
+      test: ["CMD", "mosquitto_sub", "-h", "localhost", "-t", "test", "-W", "1"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+    networks:
+      - plantnet
+
+  simulator:
+    build:
+      context: ./simulator
+    container_name: sensor-simulator
+    env_file:
+      - ./simulator/.env
+    depends_on:
+      - mqtt-broker
+    networks:
+      - plantnet
+    restart: on-failure
+
+  aggregator:
+    build:
+      context: ./aggregator
+    container_name: aggregator
+    depends_on:
+      - mqtt-broker
+      - ipfs
+    env_file:
+      - ./aggregator/.env
+    volumes:
+      - ./data:/data
+    networks:
+      - plantnet
+    restart: on-failure
 
 networks:
   plantnet:

@@ -11,10 +11,10 @@ from ipfs.uploader import upload_to_ipfs
 
 load_dotenv()
 
-BROKER = os.getenv("MQTT_BROKER", "localhost")
-PORT = int(os.getenv("MQTT_PORT", 1883))
-TOPIC = "sensor/data"
-INACTIVITY_TIMEOUT = 10  # seconds
+BROKER = os.getenv("BROKER", "mqtt-broker")
+PORT = int(os.getenv("PORT", 1883))
+TOPIC = os.getenv("TOPIC", "sensor/data")
+INACTIVITY_TIMEOUT = 10
 
 def start_aggregator():
     client = Client(userdata={"topic": TOPIC})

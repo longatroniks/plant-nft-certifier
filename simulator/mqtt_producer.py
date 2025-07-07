@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BROKER = os.environ.get("BROKER", "localhost")
+BROKER = os.environ.get("BROKER", "mqtt-broker")
 PORT = int(os.environ.get("PORT", 1883))
 TOPIC = os.environ.get("TOPIC", "sensor/data")
 DELAY = float(os.environ.get("DELAY", 2))
