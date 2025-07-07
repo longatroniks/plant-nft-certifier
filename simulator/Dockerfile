@@ -1,4 +1,3 @@
-# ./simulator/Dockerfile
 FROM python:3.10-slim
 ENV PYTHONUNBUFFERED=1
 WORKDIR /app
@@ -13,10 +12,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY mqtt_producer.py sensor_log.txt ./
 
-# wait for mqtt-broker:1883 to be up, then launch
-CMD ["sh", "-c", "\
-    echo '[…] waiting for mqtt-broker…'; \
-    until nc -z mqtt-broker 1883; do sleep 1; done; \
-    echo '[✔] mqtt-broker is up, starting simulator'; \
+# wait for the broker, then launch producer
+CMD sh -c "\
+    echo '[…] waiting for $BROKER:$PORT…'; \
+    until nc -z \"$BROKER\" \"$PORT\"; do sleep 1; done; \
+    echo '[✔] $BROKER is up, starting simulator'; \
     python3 -u mqtt_producer.py \
-"]
+"

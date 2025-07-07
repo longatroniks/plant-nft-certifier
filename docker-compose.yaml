@@ -2,6 +2,8 @@ version: "3.8"
 
 services:
 
+  # ────────────────────────────────────────────────
+  # IPFS used by the aggregator
   ipfs:
     image: ipfs/go-ipfs:v0.18.0
     container_name: ipfs
@@ -14,9 +16,11 @@ services:
     networks:
       - plantnet
 
+  # ────────────────────────────────────────────────
+  # Hyperledger orderer
   orderer.plantnet.com:
-    container_name: orderer.plantnet.com
     image: hyperledger/fabric-orderer:2.5
+    container_name: orderer.plantnet.com
     environment:
       - ORDERER_GENERAL_LOGLEVEL=info
       - ORDERER_GENERAL_LISTENADDRESS=0.0.0.0
@@ -37,10 +41,12 @@ services:
     networks:
       - plantnet
 
+  # ────────────────────────────────────────────────
+  # Hyperledger peer
   peer0.plantorg.plantnet.com:
+    image: hyperledger/fabric-peer:2.5
     container_name: peer0.plantorg.plantnet.com
     hostname: peer0.plantorg.plantnet.com
-    image: hyperledger/fabric-peer:2.5
     environment:
       - CORE_PEER_ID=peer0.plantorg.plantnet.com
       - CORE_PEER_ADDRESS=peer0.plantorg.plantnet.com:7051
@@ -71,11 +77,15 @@ services:
         aliases:
           - peer0.plantorg.plantnet.com
 
+  # ────────────────────────────────────────────────
+  # CLI for fabric
   cli:
-    container_name: cli
     image: hyperledger/fabric-tools:2.5
+    container_name: cli
     tty: true
     stdin_open: true
+    working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
+    command: /bin/bash
     environment:
       - CORE_PEER_ID=cli
       - CORE_PEER_ADDRESS=peer0.plantorg.plantnet.com:7051
@@ -84,8 +94,6 @@ services:
       - FABRIC_CFG_PATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/config
       - CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/plantorg.plantnet.com/peers/peer0.plantorg.plantnet.com/tls/ca.crt
       - CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/plantorg.plantnet.com/users/Admin@plantorg.plantnet.com/msp
-    working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
-    command: /bin/bash
     volumes:
       - ./fabric/crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto
       - ./fabric/channel-artifacts:/opt/gopath/src/github.com/hyperledger/fabric/peer/channel-artifacts
@@ -97,26 +105,31 @@ services:
     networks:
       - plantnet
 
+  # ────────────────────────────────────────────────
+  # Minter service
   minter:
     build:
       context: ./minter
     container_name: minter
+    depends_on:
+      - orderer.plantnet.com
+      - peer0.plantorg.plantnet.com
+    environment:
+      - TZ=UTC
     volumes:
       - ./data:/data
       - ./fabric/crypto-config:/opt/fabric/crypto-config
-    depends_on:
-      - peer0.plantorg.plantnet.com
-      - orderer.plantnet.com
-    environment:
-      - TZ=UTC
     ports:
       - "8081:8081"
     networks:
       - plantnet
 
+  # ────────────────────────────────────────────────
+  # In-VM MQTT broker (only in sim profile)
   mqtt-broker:
     image: eclipse-mosquitto:2.0
     container_name: mqtt-broker
+    profiles: ["sim"]
     ports:
       - "1883:1883"
     healthcheck:
@@ -129,32 +142,44 @@ services:
     networks:
       - plantnet
 
+  # ────────────────────────────────────────────────
+  # Sensor simulator (only in sim profile)
   simulator:
     build:
       context: ./simulator
     container_name: sensor-simulator
+    profiles: ["sim"]
     env_file:
-      - ./simulator/.env
+      - ./.env
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      - BROKER=${BROKER}
+      - PORT=${PORT:-1883}
     depends_on:
       - mqtt-broker
+    restart: on-failure
     networks:
       - plantnet
-    restart: on-failure
 
+  # ────────────────────────────────────────────────
+  # Aggregator (always up, talks to host.docker.internal:1883)
   aggregator:
     build:
       context: ./aggregator
     container_name: aggregator
-    depends_on:
-      - mqtt-broker
-      - ipfs
     env_file:
-      - ./aggregator/.env
+      - ./.env
+    environment:
+      - BROKER=${BROKER}
+      - PORT=${PORT:-1883}
+    depends_on:
+      - ipfs
     volumes:
       - ./data:/data
+    restart: on-failure
     networks:
       - plantnet
-    restart: on-failure
 
 networks:
   plantnet:

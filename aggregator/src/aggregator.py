@@ -14,7 +14,7 @@ load_dotenv()
 BROKER = os.getenv("BROKER", "mqtt-broker")
 PORT = int(os.getenv("PORT", 1883))
 TOPIC = os.getenv("TOPIC", "sensor/data")
-INACTIVITY_TIMEOUT = 10
+INACTIVITY_TIMEOUT = 15
 
 def start_aggregator():
     client = Client(userdata={"topic": TOPIC})

@@ -14,7 +14,7 @@ aggregator/version
 # Fabric crypto material and artifacts
 fabric/crypto-config/
 fabric/channel-artifacts/
-fabric/chaincode/plantnft/plantnft_1.tar.gz
+fabric/chaincode/plantnft/plantnft_v1.tar.gz
 
 # Data output
 data/cids/
