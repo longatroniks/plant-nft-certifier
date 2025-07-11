@@ -149,7 +149,7 @@ Adjust any broker addresses, ports, or IPFS endpoints as needed.
 ```bash
 cd fabric/scripts
 chmod +x generate-artifacts.sh
-./generate-artifacts.sh
+bash generate-artifacts.sh
 cd ../..
 ```
 
