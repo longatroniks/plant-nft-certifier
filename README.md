@@ -128,14 +128,7 @@ source ~/.bashrc
 
 ## Getting Started
 
-1. Clone the repository
-
-```bash
-git clone https://github.com/<your-org>/plant-nft-certifier.git
-cd plant-nft-certifier
-```
-
-2. Configuration  
+1. Configuration  
 Copy and fill in environment templates:
 
 ```bash
@@ -144,7 +137,7 @@ cp .env.example .env
 
 Adjust any broker addresses, ports, or IPFS endpoints as needed.
 
-3. Generate Fabric artifacts
+2. Generate Fabric artifacts
 
 ```bash
 cd fabric/scripts
@@ -153,13 +146,14 @@ bash generate-artifacts.sh
 cd ../..
 ```
 
-4. Build and start services
+3. Build and start services
 
 ```bash
-docker compose down
+docker compose down --remove-orphans -v
+
 
 # For a clean slate
-docker compose down --rmi local --volumes
+docker system prune -af --volumes
 
 docker compose build [simulator, aggregator,...etc.]
 
@@ -170,7 +164,7 @@ docker compose --env-file .env.sim --profile sim up
 docker compose up
 ```
 
-5. Set up Fabric channel & chaincode
+4. Set up Fabric channel & chaincode
 
 ```bash
 docker exec -it cli bash

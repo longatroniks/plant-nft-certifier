@@ -48,7 +48,7 @@ def simulate_sensor():
     client = mqtt.Client()
     client.connect(BROKER, PORT)
 
-    readings = parse_sensor_blocks("sensor_log.txt")
+    readings = parse_sensor_blocks("olive_tree_data_11_07_2025.txt")
 
     while True:
         for block in readings:
