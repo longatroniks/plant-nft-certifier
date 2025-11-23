@@ -52,6 +52,22 @@ This project implements:
 
 ```
 
+```python
+# Aggregate batch into summary and persist
+summary = summarize_batch(readings)
+path = save_batch_to_file(summary, readings)
+reset_readings()
+
+# Upload summary to IPFS and record CID
+with open(path, "rb") as f:
+    files = {"file": f}
+    res = requests.post(
+      f"{IPFS_API}/api/v0/add", files=files)
+    cid = res.json()["Hash"]
+    log_cid(cid, path)
+
+```
+
 ---
 
 ## Prerequisites
