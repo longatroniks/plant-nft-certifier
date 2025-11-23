@@ -10,7 +10,7 @@ RUN apt-get update \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY mqtt_producer.py sensor_log.txt ./
+COPY mqtt_producer.py olive_tree_data_11_07_2025.txt ./
 
 # wait for the broker, then launch producer
 CMD sh -c "\

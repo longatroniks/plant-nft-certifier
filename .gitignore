@@ -26,3 +26,6 @@ simulator/*.log
 # Docker-related
 *.env
 *.log
+
+## VSCode-related
+.vscode
