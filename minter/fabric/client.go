@@ -3,59 +3,59 @@ package fabric
 import (
 	"encoding/json"
 	"fmt"
-	"time"
 )
 
-func MintNFTToFabric(cid string, summary map[string]SensorStats) error {
+// RecordMeasurementToFabric certifies one batch on the plant's dynamic NFT,
+// minting the token if this is its first measurement. It returns the token
+// state after the update, or nil if the CID had already been recorded.
+func RecordMeasurementToFabric(tokenID string, cid string, m Measurement) (*PlantNFT, error) {
 	identity, signer, err := LoadIdentity()
 	if err != nil {
-		return fmt.Errorf("load identity: %w", err)
+		return nil, fmt.Errorf("load identity: %w", err)
 	}
 
 	conn, err := ConnectGateway()
 	if err != nil {
-		return fmt.Errorf("connect gateway: %w", err)
+		return nil, fmt.Errorf("connect gateway: %w", err)
 	}
 	defer conn.Close()
 
 	gw, err := NewGatewayClient(conn, identity, signer)
 	if err != nil {
-		return fmt.Errorf("gateway client: %w", err)
+		return nil, fmt.Errorf("gateway client: %w", err)
 	}
 	defer gw.Close()
 
 	network := gw.GetNetwork(channelName)
 	contract := network.GetContract(chaincodeName)
 
-	summaryJSON, err := json.Marshal(summary)
+	recordedOn, err := contract.EvaluateTransaction("GetTokenByCID", cid)
 	if err != nil {
-		return fmt.Errorf("marshal summary: %w", err)
+		return nil, fmt.Errorf("GetTokenByCID failed: %w", err)
+	}
+	if len(recordedOn) > 0 {
+		fmt.Printf("⏭️ CID %s already recorded on %s, skipping.\n", cid, string(recordedOn))
+		return nil, nil
 	}
 
-	exists, err := contract.EvaluateTransaction("NFTExists", cid)
+	measurementJSON, err := json.Marshal(m)
 	if err != nil {
-		return fmt.Errorf("NFTExists failed: %w", err)
-	}
-	if string(exists) == "true" {
-		fmt.Printf("⏭️ NFT for CID %s already minted, skipping.\n", cid)
-		return nil
+		return nil, fmt.Errorf("marshal measurement: %w", err)
 	}
 
-	timestamp := fmt.Sprintf("%d", time.Now().Unix())
-	fmt.Println("🚀 Submitting MintNFT transaction...")
-
-	_, err = contract.SubmitTransaction("MintNFT", cid, cid, timestamp, string(summaryJSON))
+	fmt.Printf("🚀 Submitting RecordMeasurement for %s...\n", tokenID)
+	_, err = contract.SubmitTransaction("RecordMeasurement", tokenID, cid, string(measurementJSON))
 	if err != nil {
-		return fmt.Errorf("submit transaction: %w", err)
+		return nil, fmt.Errorf("submit transaction: %w", err)
 	}
 
-	fmt.Printf("✅ MintNFT for CID %s committed.\n", cid)
-
-	result, err := contract.EvaluateTransaction("GetNFT", cid)
+	result, err := contract.EvaluateTransaction("GetNFT", tokenID)
 	if err != nil {
-		return fmt.Errorf("GetNFT failed: %w", err)
+		return nil, fmt.Errorf("GetNFT failed: %w", err)
 	}
-	fmt.Println("🔎 GetNFT result:", string(result))
-
-	return nil
+	var nft PlantNFT
+	if err := json.Unmarshal(result, &nft); err != nil {
+		return nil, fmt.Errorf("parse GetNFT result: %w", err)
+	}
+	return &nft, nil
 }

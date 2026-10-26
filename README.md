@@ -231,18 +231,31 @@ Dependencies: paho-mqtt, requests, python-dotenv
 
 Workflow:
 
-- Listen on MQTT sensor/data  
-- Buffer readings until 10 s inactivity  
-- Save JSON batch to ./data/batches  
-- Upload to IPFS  
-- Record CID in ./data/cids & .ipfs_metadata.json  
+- Listen on MQTT sensor/data (JSON or Waspmote `temp=..&hum=..&press=..&dev=..`)  
+- Reject incomplete or non-finite (NaN/inf) readings  
+- Buffer readings until `INACTIVITY_TIMEOUT` seconds of silence (default 30)  
+- Save JSON batch (readings, summary, time window, device ids, `tree_id`) to ./data/batches  
+- Upload to the local IPFS node (retried every 30 s on failure)  
+- Record CID in ./data/cids  
+- If `PINATA_JWT` is set, pin each batch to Pinata so the QR link works when the laptop is offline; batches made without internet are pinned once it returns (markers in ./data/pinned)  
 
 Runs as the aggregator Docker service.
 
 ### Fabric Network
 Version: Hyperledger Fabric 2.5.x
 
-Chaincode: Go module in fabric/chaincode/plantnft
+Chaincode: Go module in fabric/chaincode/plantnft (unit test: `go test ./...`)
+
+The chaincode implements **dynamic NFTs**: one token per plant (`tree_id`), owned by the identity that minted it.
+
+| Function | Purpose |
+|---|---|
+| `RecordMeasurement(id, cid, measurementJSON)` | First call mints the token; later calls (owner only) append a measurement and bump `version` |
+| `TransferNFT(id, newOwner)` | Owner hands the token to a new owner |
+| `GetNFT(id)` | Current state: owner, version, current CID/summary, all measurements |
+| `GetNFTHistory(id)` | Every committed state of the token, from the ledger history |
+| `GetTokenByCID(cid)` | Which token a batch was recorded on (a CID can be recorded only once) |
+| `NFTExists(id)` | Existence check |
 
 Key scripts:
 
@@ -259,10 +272,10 @@ Dependencies: Fabric Gateway SDK v1.7.1, go-qrcode, fsnotify
 
 Workflow:
 
-- Watch /data/cids  
-- Extract batch CID  
-- Invoke Fabric gateway to mint NFT  
-- Generate QR code PNG  
+- Watch /data/cids (and process files already there at startup)  
+- Skip CIDs already on the ledger  
+- Call `RecordMeasurement` on the batch's `tree_id` token (mints it on the first batch)  
+- Print a QR code for the batch via `IPFS_GATEWAY` (default `https://ipfs.io/ipfs/`)  
 
 Runs in the minter container.
 
@@ -285,9 +298,28 @@ Monitor logs:
 
 Inspect IPFS: batch JSON under /data/batches/… and CID under /data/cids/….
 
-View NFTs: query via the CLI or Fabric Explorer.
+View NFTs from the CLI container:
 
-Scan QR codes in minter/qrs/… to access IPFS URLs.
+```bash
+source scripts/peer-env.sh
+peer chaincode query -C $CHANNEL_NAME -n $CHAINCODE_NAME -c '{"Args":["GetNFT","olive-tree-01"]}'
+peer chaincode query -C $CHANNEL_NAME -n $CHAINCODE_NAME -c '{"Args":["GetNFTHistory","olive-tree-01"]}'
+```
+
+QR codes are printed in the minter log (`docker logs -f minter`).
+
+## Public pinning (Pinata)
+
+1. Create a free account at https://app.pinata.cloud and an API key (Developers → API Keys, scope `pinFileToIPFS`).
+2. Put the JWT in `.env`: `PINATA_JWT=eyJ...`
+3. Restart the aggregator. New and previously unpinned batches are uploaded with `cidVersion 0`, so the CID on the ledger is the one that resolves publicly.
+
+## Field deployment checklist
+
+- Flash `sensor-system/end-node` and `sensor-system/gateway_node` from the Waspmote IDE; check that the gateway's `RX_ADDRESS`/`HOST` match your hardware and the laptop's IP on the hotspot.
+- Set `INACTIVITY_TIMEOUT` well above expected Wi-Fi drop-outs (e.g. `600`) so one session gives one batch.
+- Set `TREE_ID` per monitored tree; each tree gets its own dynamic NFT.
+- Set `PINATA_JWT`; batches made offline are pinned automatically when internet returns.
 
 ## Troubleshooting
 

@@ -20,7 +20,9 @@ def save_batch_to_file(summary, raw_readings):
         "end_timestamp": summary["end_timestamp"],
         "reading_count": summary["reading_count"],
         "aggregated_at": datetime.datetime.now(datetime.timezone.utc).isoformat().replace("+00:00", "Z"),
-        "device_ids": device_ids or ["sensor-001"]
+        "device_ids": device_ids or ["sensor-001"],
+        # Plant this batch certifies; each plant has one dynamic NFT
+        "tree_id": os.getenv("TREE_ID", "olive-tree-01")
     }
 
     with open(path, "w") as f:

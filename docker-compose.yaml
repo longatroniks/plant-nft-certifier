@@ -113,6 +113,8 @@ services:
       - peer0.plantorg.plantnet.com
     environment:
       - TZ=UTC
+      - IPFS_GATEWAY=${IPFS_GATEWAY:-https://ipfs.io/ipfs/}
+      - DEFAULT_TOKEN_ID=${TREE_ID:-olive-tree-01}
     volumes:
       - ./data:/data
       - ./fabric/crypto-config:/opt/fabric/crypto-config

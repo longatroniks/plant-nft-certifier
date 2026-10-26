@@ -8,6 +8,7 @@ from collector.data_collector import summarize_batch, get_last_message_time, tak
 from storage.file_writer import save_batch_to_file
 from storage.cid_recorder import record_ipfs_metadata
 from ipfs.uploader import upload_to_ipfs
+from ipfs.pinata import pin_pending, pinning_enabled
 
 load_dotenv()
 
@@ -19,6 +20,8 @@ TOPIC = os.getenv("TOPIC", "sensor/data")
 # otherwise one field session is split into several certificates.
 INACTIVITY_TIMEOUT = int(os.getenv("INACTIVITY_TIMEOUT", 30))
 IPFS_RETRY_INTERVAL = 30
+PIN_INTERVAL = 60
+DATA_DIR = os.getenv("DATA_DIR", "/app/data")
 
 def finalize_batch(batch):
     print("[⏳] No new data — assuming plant was harvested.")
@@ -45,6 +48,9 @@ def start_aggregator():
     # so a temporary IPFS outage does not lose a certificate.
     pending_uploads = []
     last_retry = 0
+    last_pin = 0
+    if not pinning_enabled():
+        print("[!] PINATA_JWT not set: batches stay on the local IPFS node only")
 
     try:
         while True:
@@ -56,11 +62,16 @@ def start_aggregator():
                     batch_path = finalize_batch(batch)
                     if not try_upload(batch_path):
                         pending_uploads.append(batch_path)
+                    last_pin = 0  # pin the new batch right away
 
             if pending_uploads and time.time() - last_retry > IPFS_RETRY_INTERVAL:
                 last_retry = time.time()
                 print(f"[↻] Retrying {len(pending_uploads)} pending IPFS upload(s)")
                 pending_uploads = [p for p in pending_uploads if not try_upload(p)]
+
+            if time.time() - last_pin > PIN_INTERVAL:
+                last_pin = time.time()
+                pin_pending(DATA_DIR)
     except KeyboardInterrupt:
         print("\n[✋] Aggregator manually stopped.")
         client.loop_stop()

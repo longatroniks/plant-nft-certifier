@@ -14,6 +14,11 @@ type CidFile struct {
 }
 
 type BatchFile struct {
+	TreeID            string                        `json:"tree_id"`
+	StartTimestamp    float64                       `json:"start_timestamp"`
+	EndTimestamp      float64                       `json:"end_timestamp"`
+	ReadingCount      int                           `json:"reading_count"`
+	DeviceIDs         []string                      `json:"device_ids"`
 	AggregatedSummary map[string]fabric.SensorStats `json:"aggregated_summary"`
 }
 
