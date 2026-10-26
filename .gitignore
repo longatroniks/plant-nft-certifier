@@ -29,3 +29,6 @@ simulator/*.log
 
 ## VSCode-related
 .vscode
+
+# Go build output
+minter/minter

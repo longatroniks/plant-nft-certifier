@@ -28,6 +28,8 @@ char LOCAL_PORT[]   = "1883";
 const char* MQTT_CLIENT_ID   = "waspmote-gateway";
 const char* MQTT_CLIENT_ID_2 = "waspmote-endnode";
 const char* MQTT_TOPIC_BASE  = "sensor/data";
+const char* GATEWAY_DEVICE_ID = "gateway";
+const char* NODE_DEVICE_ID    = "node-01";
 
 // System variables
 uint8_t  socket        = SOCKET1;
@@ -89,7 +91,7 @@ void initializeSystem() {
       WIFI_PRO.softReset();
       wifiInitialized = true;
       USB.println(F("OK"));
-      WIFI_PRO.ping(HOST);
+      error = WIFI_PRO.ping(HOST);
       USB.print(F("Ping result : "));
       USB.println(error == 0 ? F("OK") : F("FAIL"));
     } else {
@@ -102,6 +104,7 @@ void initializeSystem() {
 // PUBLISH HELPERS
 bool publishToChannel(const char* clientId,
                       const char* topic,
+                      const char* deviceId,
                       float temp, float hum, float press,
                       float lat,  float lon)
 {
@@ -123,6 +126,12 @@ bool publishToChannel(const char* clientId,
   USB.print(error);
   USB.println(F(")"));
 
+  if (error != 0) {
+    Utils.setLED(LED0, LED_OFF);
+    USB.println(F("==================================\n"));
+    return false;
+  }
+
   socket_handle = WIFI_PRO._socket_handle;
 
   // --- MQTT CONNECT packet ---
@@ -139,6 +148,7 @@ bool publishToChannel(const char* clientId,
   error = WIFI_PRO.send(socket_handle, buf, len);
   if (error != 0) {
     USB.println(F("Status      : MQTT CONNECT failed"));
+    WIFI_PRO.closeSocket(socket_handle);
     Utils.setLED(LED0, LED_OFF);
     USB.println(F("==================================\n"));
     return false;
@@ -156,8 +166,8 @@ bool publishToChannel(const char* clientId,
 
   char payload[200];
   snprintf(payload, sizeof(payload),
-           "temp=%s&hum=%s&press=%s&lat=%s&lon=%s",
-           tempBuf, humBuf, pressBuf, latBuf, lonBuf);
+           "temp=%s&hum=%s&press=%s&lat=%s&lon=%s&dev=%s",
+           tempBuf, humBuf, pressBuf, latBuf, lonBuf, deviceId);
 
   USB.print(F("Client ID   : ")); USB.println(clientId);
   USB.print(F("Topic       : ")); USB.println(topic);
@@ -196,17 +206,23 @@ bool publishToChannel(const char* clientId,
 // ──────────────────────────────────────────────
 // TOP-LEVEL PUBLISH CALL
 bool publishSensorData() {
+  // End-node reading first: it is the one that must not be lost.
+  if (!publishToChannel(MQTT_CLIENT_ID_2, MQTT_TOPIC_BASE, NODE_DEVICE_ID,
+                        temperature, humidity, pressure,
+                        lat, lon)) {
+    return false;  // keep dataReady set, retry on the next interval
+  }
+
+  // Gateway's own reading is taken fresh each time; a failure only skips it.
   readSensorData();  // refresh real_*
-
-  bool ok  = publishToChannel(MQTT_CLIENT_ID_2, MQTT_TOPIC_BASE,
-                              real_temperature, real_humidity, real_pressure,
-                              real_latitude,   real_longitude);
-
-  ok &= publishToChannel(MQTT_CLIENT_ID, MQTT_TOPIC_BASE,
-                         temperature, humidity, pressure,
-                         lat, lon);
-
-  return ok;
+  if (isnan(real_temperature) || isnan(real_humidity) || isnan(real_pressure)) {
+    USB.println(F("[WARN] Gateway sensor error, skipping its reading"));
+  } else {
+    publishToChannel(MQTT_CLIENT_ID, MQTT_TOPIC_BASE, GATEWAY_DEVICE_ID,
+                     real_temperature, real_humidity, real_pressure,
+                     real_latitude,   real_longitude);
+  }
+  return true;
 }
 
 // ──────────────────────────────────────────────
@@ -242,9 +258,11 @@ bool receiveAndParseData() {
     return false;
   }
 
+  // _payload is not NUL-terminated, so copy exactly _length bytes
   char copyData[200];
-  strncpy(copyData, (char*)xbee802._payload, sizeof(copyData) - 1);
-  copyData[sizeof(copyData) - 1] = '\0';
+  uint16_t copyLen = xbee802._length < sizeof(copyData) - 1 ? xbee802._length : sizeof(copyData) - 1;
+  memcpy(copyData, xbee802._payload, copyLen);
+  copyData[copyLen] = '\0';
 
   USB.print(F("\n[XBee] Raw  : "));
   USB.println(copyData);
@@ -253,18 +271,31 @@ bool receiveAndParseData() {
   char *ptr = strchr(copyData, ' ');
   if (ptr) { ptr++; } else { return false; }
 
+  // Width limits stop a malformed token from overflowing key/value,
+  // and all three values are required so a partial packet can't publish stale data
+  float t = 0, h = 0, p = 0;
+  uint8_t found = 0;
   char *token = strtok(ptr, ",");
   while (token) {
     char key[4], value[20];
-    if (sscanf(token, "%[^:]:%s", key, value) == 2) {
+    if (sscanf(token, " %3[^:]:%19s", key, value) == 2) {
       float parsed_value = atof(value);
 
-      if (strcmp(key, "T") == 0)        temperature = parsed_value;
-      else if (strcmp(key, "H") == 0)   humidity    = parsed_value;
-      else if (strcmp(key, "P") == 0)   pressure    = parsed_value;
+      if (strcmp(key, "T") == 0)        { t = parsed_value; found |= 1; }
+      else if (strcmp(key, "H") == 0)   { h = parsed_value; found |= 2; }
+      else if (strcmp(key, "P") == 0)   { p = parsed_value; found |= 4; }
     }
     token = strtok(NULL, ",");
   }
+
+  if (found != 7) {
+    USB.println(F("XBee        : Incomplete packet, ignored"));
+    Utils.blinkRedLED();
+    return false;
+  }
+  temperature = t;
+  humidity    = h;
+  pressure    = p;
 
   printSensorData();          // pretty table
   Utils.blinkGreenLED();

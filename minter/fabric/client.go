@@ -32,6 +32,15 @@ func MintNFTToFabric(cid string, summary map[string]SensorStats) error {
 		return fmt.Errorf("marshal summary: %w", err)
 	}
 
+	exists, err := contract.EvaluateTransaction("NFTExists", cid)
+	if err != nil {
+		return fmt.Errorf("NFTExists failed: %w", err)
+	}
+	if string(exists) == "true" {
+		fmt.Printf("⏭️ NFT for CID %s already minted, skipping.\n", cid)
+		return nil
+	}
+
 	timestamp := fmt.Sprintf("%d", time.Now().Unix())
 	fmt.Println("🚀 Submitting MintNFT transaction...")
 

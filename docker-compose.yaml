@@ -116,8 +116,7 @@ services:
     volumes:
       - ./data:/data
       - ./fabric/crypto-config:/opt/fabric/crypto-config
-    ports:
-      - "8081:8081"
+    restart: on-failure
     networks:
       - plantnet
 

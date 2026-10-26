@@ -1,4 +1,4 @@
-ee#include <WaspSensorEvent_v30.h>
+#include <WaspSensorEvent_v30.h>
 #include <WaspXBee802.h>
 
 // ──────────────────────────────────────────────
